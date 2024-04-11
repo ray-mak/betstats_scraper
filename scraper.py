@@ -39,12 +39,14 @@ for tr_element in first_tr_elements:
 
 fighter_pairs = []
 for td_element in second_td:
-    #collect the fighter names
+    #collect the fighter names and associated href
     a_elements = td_element.find_all("a")
-    fighter_names = []
+    fighter_info = []
     for a_element in a_elements:
-        if a_element.text.strip() and len(fighter_names) < 3:
-            fighter_names.append(a_element.text.strip())
+        if a_element.text.strip() and len(fighter_info) < 3:
+            fighter_info.append(a_element)
+    fighter1_href = fighter_info[0].get("href")
+    fighter2_href = fighter_info[2].get("href")
 
     #collect betting stats for fighters
     tips_table = td_element.find("table")
@@ -104,15 +106,15 @@ for td_element in second_td:
             del tip2_data["bet"]
 
     fighter_pair = {
-        "fighter1": {"name": fighter_names[0], "tips": fighter1_tips_filtered},
-        "fighter2": {"name": fighter_names[2], "tips": fighter2_tips_filtered}
+        "fighter1": {"name": fighter_info[0].text.strip(), "tips": fighter1_tips_filtered},
+        "fighter2": {"name": fighter_info[2].text.strip(), "tips": fighter2_tips_filtered}
     }
     fighter_pairs.append(fighter_pair)
 
-# print(fighter_pairs[0])   
+print(fighter2_href)   
 
-with open("all_matchups.json", "w") as json_file:
-    json.dump(fighter_pairs, json_file, indent=3)
+# with open("all_matchups.json", "w") as json_file:
+#     json.dump(fighter_pairs, json_file, indent=3)
 
 
 # #this table holds the betting tips for both fighters

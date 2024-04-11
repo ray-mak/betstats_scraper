@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 
 userurl = "https://www.betmma.tips/twofivefive"
-response = requests.get(userurl)
-userpage = BeautifulSoup(response.text, "html.parser")
+res = requests.get(userurl)
+userpage = BeautifulSoup(res.text, "html.parser")
 
 step_1 = userpage.find("table")
 step_2 = step_1.find_all("tr", recursive=False)[3]
