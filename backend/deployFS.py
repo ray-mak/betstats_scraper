@@ -1,13 +1,13 @@
 from pymongo import MongoClient
 from flask import Flask, jsonify
-from flask_cors import CORS
+# from flask_cors import CORS
 
 client = MongoClient("mongodb://localhost:27017/")
 db = client["fighter_stats"]
 collection = db["fighter_roi"]
 
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
 
 @app.route('/data', methods=['GET'])
 def get_data():

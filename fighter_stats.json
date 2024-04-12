@@ -1,0 +1,260 @@
+[{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de9959218"
+  },
+  "name": "Alex Pereira",
+  "fighter_roi": {
+    "fav_roi": "51.25%",
+    "dog_roi": "144.75%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de9959219"
+  },
+  "name": "Jamahal Hill",
+  "fighter_roi": {
+    "fav_roi": "41.38%",
+    "dog_roi": "170.0%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de995921a"
+  },
+  "name": "Weili Zhang",
+  "fighter_roi": {
+    "fav_roi": "14.44%",
+    "dog_roi": "185.0%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de995921b"
+  },
+  "name": "Yan Xiaonan",
+  "fighter_roi": {
+    "fav_roi": "27.5%",
+    "dog_roi": "93.0%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de995921c"
+  },
+  "name": "Max Holloway",
+  "fighter_roi": {
+    "fav_roi": "19.37%",
+    "dog_roi": "11.0%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de995921d"
+  },
+  "name": "Justin Gaethje",
+  "fighter_roi": {
+    "fav_roi": "12.0%",
+    "dog_roi": "66.56%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de995921e"
+  },
+  "name": "Bo Nickal",
+  "fighter_roi": {
+    "fav_roi": "5.5%",
+    "dog_roi": "No matchups where fighter is underdog%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de995921f"
+  },
+  "name": "Cody Brundage",
+  "fighter_roi": {
+    "fav_roi": "-100.0%",
+    "dog_roi": "88.57%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de9959220"
+  },
+  "name": "Charles Oliveira",
+  "fighter_roi": {
+    "fav_roi": "36.33%",
+    "dog_roi": "42.67%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de9959221"
+  },
+  "name": "Arman Tsarukyan",
+  "fighter_roi": {
+    "fav_roi": "20.78%",
+    "dog_roi": "-100.0%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de9959222"
+  },
+  "name": "Aleksandar Rakic",
+  "fighter_roi": {
+    "fav_roi": "7.71%",
+    "dog_roi": "105.0%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de9959223"
+  },
+  "name": "Jiri Prochazka",
+  "fighter_roi": {
+    "fav_roi": "42.0%",
+    "dog_roi": "17.5%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de9959224"
+  },
+  "name": "Aljamain Sterling",
+  "fighter_roi": {
+    "fav_roi": "28.58%",
+    "dog_roi": "86.43%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de9959225"
+  },
+  "name": "Calvin Kattar",
+  "fighter_roi": {
+    "fav_roi": "19.4%",
+    "dog_roi": "39.86%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de9959226"
+  },
+  "name": "Holly Holm",
+  "fighter_roi": {
+    "fav_roi": "-3.82%",
+    "dog_roi": "224.75%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de9959227"
+  },
+  "name": "Kayla Harrison",
+  "fighter_roi": {
+    "fav_roi": "1.44%",
+    "dog_roi": "No matchups where fighter is underdog%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de9959228"
+  },
+  "name": "Sodiq Yusuff",
+  "fighter_roi": {
+    "fav_roi": "7.13%",
+    "dog_roi": "230.0%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de9959229"
+  },
+  "name": "Diego Lopes",
+  "fighter_roi": {
+    "fav_roi": "-19.5%",
+    "dog_roi": "2.5%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de995922a"
+  },
+  "name": "Renato Moicano",
+  "fighter_roi": {
+    "fav_roi": "0.44%",
+    "dog_roi": "52.33%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de995922b"
+  },
+  "name": "Jalin Turner",
+  "fighter_roi": {
+    "fav_roi": "15.78%",
+    "dog_roi": "-30.67%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de995922c"
+  },
+  "name": "Jessica Andrade",
+  "fighter_roi": {
+    "fav_roi": "14.58%",
+    "dog_roi": "-6.71%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de995922d"
+  },
+  "name": "Marina Alcalde Rodriguez",
+  "fighter_roi": {
+    "fav_roi": "-21.57%",
+    "dog_roi": "186.33%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de995922e"
+  },
+  "name": "Bobby Green",
+  "fighter_roi": {
+    "fav_roi": "28.86%",
+    "dog_roi": "15.71%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de995922f"
+  },
+  "name": "Jim Miller",
+  "fighter_roi": {
+    "fav_roi": "31.83%",
+    "dog_roi": "-24.12%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de9959230"
+  },
+  "name": "Deiveson Figueiredo",
+  "fighter_roi": {
+    "fav_roi": "10.57%",
+    "dog_roi": "103.86%"
+  }
+},
+{
+  "_id": {
+    "$oid": "6618b804fc0ddf3de9959231"
+  },
+  "name": "Cody Garbrandt",
+  "fighter_roi": {
+    "fav_roi": "-5.0%",
+    "dog_roi": "65.0%"
+  }
+}]
