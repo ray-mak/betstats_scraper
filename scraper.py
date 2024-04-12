@@ -2,6 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import json
+import time
+import random
+import pymongo
 
 url = "https://www.betmma.tips/free_ufc_betting_tips.php?Event=1444"
 response = requests.get(url)
@@ -30,6 +33,7 @@ for table in selected_matchups:
     first_tr_element = table.find("tr")
     first_tr_elements.append(first_tr_element)
 
+#This is an array of all the matchup containers
 second_td = []
 for tr_element in first_tr_elements:
     second_td_element = tr_element.find_all("td", recursive=False)
@@ -38,6 +42,7 @@ for tr_element in first_tr_elements:
 #scrape matchup information for each object in second_td
 
 fighter_pairs = []
+user_stats = []
 for td_element in second_td:
     #collect the fighter names and associated href
     a_elements = td_element.find_all("a")
@@ -66,7 +71,7 @@ for td_element in second_td:
                 break
             next_sibling = next_sibling.next_sibling
         tip1_data["bet"] = text.strip()
-        fighter1_tips.append(tip1_data)
+        fighter1_tips.append(tip1_data) 
 
     fighter2_td = tips_table.find_all("td")[1]
     fighter2_a_elements = fighter2_td.find_all("a")
@@ -85,7 +90,7 @@ for td_element in second_td:
         tip2_data["bet"] = text.strip()
         fighter2_tips.append(tip2_data)
 
-    pattern = r'[a-zA-Z]'
+    pattern = r'[a-zA-Z()]'
     fighter1_tips_filtered = [tip1_data for tip1_data in fighter1_tips if not re.match(pattern, tip1_data["bet"].strip())]
     fighter2_tips_filtered = [tip2_data for tip2_data in fighter2_tips if not re.match(pattern, tip2_data["bet"].strip())]
 
@@ -106,62 +111,15 @@ for td_element in second_td:
             del tip2_data["bet"]
 
     fighter_pair = {
-        "fighter1": {"name": fighter_info[0].text.strip(), "tips": fighter1_tips_filtered},
-        "fighter2": {"name": fighter_info[2].text.strip(), "tips": fighter2_tips_filtered}
+        "fighter1": {"name": fighter_info[0].text.strip(), "tips": fighter1_tips_filtered, "profile": f"https://www.betmma.tips/{fighter1_href}"},
+        "fighter2": {"name": fighter_info[2].text.strip(), "tips": fighter2_tips_filtered, "profile": f"https://www.betmma.tips/{fighter2_href}"}
     }
     fighter_pairs.append(fighter_pair)
 
-print(fighter2_href)   
+with open("matchups_4_11_updated", "w") as json_file:
+    json.dump(fighter_pairs, json_file, indent=2)
 
-# with open("all_matchups.json", "w") as json_file:
-#     json.dump(fighter_pairs, json_file, indent=3)
-
-
-# #this table holds the betting tips for both fighters
-# tips_table = second_td[0].find("table")
-# fighter1_td = tips_table.find("td")
-
-# fighter1_a_elements = fighter1_td.find_all("a")
-# fighter1_tips = []
-
-# for a_element in fighter1_a_elements:
-#     tip_data = {}
-#     href = a_element.get("href")
-#     text = ""
-#     next_sibling = a_element.next_sibling
-#     tip_data["href"] = href
-#     while next_sibling:
-#         if isinstance(next_sibling, str):
-#             text += next_sibling.strip()
-#         else:
-#             break
-#         next_sibling = next_sibling.next_sibling
-#     tip_data["bet"] = text.strip()
-#     fighter1_tips.append(tip_data)
-
-# fighter2_td = tips_table.find_all("td")[1]
-# fighter2_a_elements = fighter2_td.find_all("a")
-# fighter2_tips = []
-
-# for a_element in fighter2_a_elements:
-#     tip_data = {}
-#     text = ""
-#     href = a_element.get("href")
-#     next_sibling = a_element.next_sibling
-#     tip_data["href"] = href
-#     while next_sibling:
-#         if isinstance(next_sibling, str):
-#             text += next_sibling.strip()
-#         else:
-#             break
-#         next_sibling = next_sibling.next_sibling
-#     tip_data["bet"] = text.strip()
-#     fighter2_tips.append(tip_data)
-
-# #filter straight bets
-
-
-
-
-
-
+client = pymongo.MongoClient("mongodb://localhost:27017/")
+db = client["event_stats"]
+collection = db["ufc_300"]
+collection.insert_many(fighter_pairs)
