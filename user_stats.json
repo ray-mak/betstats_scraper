@@ -76,31 +76,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab50131624613"
-    },
-    "user": "Maxito72",
-    "user_stats": {
-      "avg_bet": "2.67",
-      "big_fav": {
-        "total_picks": "1",
-        "roi": "49"
-      },
-      "sm_fav": {
-        "total_picks": "2",
-        "roi": "-15"
-      },
-      "sm_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab50131624614"
     },
     "user": "SawbuckMMAtips",
@@ -476,56 +451,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab50131624623"
-    },
-    "user": "Mandalorian",
-    "user_stats": {
-      "avg_bet": "1.33",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "40",
-        "roi": "20"
-      },
-      "sm_dog": {
-        "total_picks": "84",
-        "roi": "26"
-      },
-      "big_dog": {
-        "total_picks": "28",
-        "roi": "-62"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab50131624624"
-    },
-    "user": "Jphan0502",
-    "user_stats": {
-      "avg_bet": "nan",
-      "big_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab50131624625"
     },
     "user": "DanielMOFO",
@@ -596,31 +521,6 @@
       "big_dog": {
         "total_picks": "34",
         "roi": "-23"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab50131624628"
-    },
-    "user": "The_Unbroken1",
-    "user_stats": {
-      "avg_bet": "nan",
-      "big_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
       }
     }
   },
@@ -876,31 +776,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab50131624633"
-    },
-    "user": "seanliang",
-    "user_stats": {
-      "avg_bet": "nan",
-      "big_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab50131624634"
     },
     "user": "hugdeeznuts",
@@ -1076,31 +951,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab5013162463b"
-    },
-    "user": "SbSports",
-    "user_stats": {
-      "avg_bet": "1.20",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "1",
-        "roi": "100"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab5013162463c"
     },
     "user": "pedrog",
@@ -1146,31 +996,6 @@
       "big_dog": {
         "total_picks": "10",
         "roi": "-21"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab5013162463e"
-    },
-    "user": "cotymma",
-    "user_stats": {
-      "avg_bet": "0.55",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "3",
-        "roi": "-10"
-      },
-      "big_dog": {
-        "total_picks": "2",
-        "roi": "305"
       }
     }
   },
@@ -1226,56 +1051,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab50131624641"
-    },
-    "user": "WCR89",
-    "user_stats": {
-      "avg_bet": "1.01",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "8",
-        "roi": "33"
-      },
-      "sm_dog": {
-        "total_picks": "36",
-        "roi": "13"
-      },
-      "big_dog": {
-        "total_picks": "9",
-        "roi": "-68"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab50131624642"
-    },
-    "user": "FRANKIE",
-    "user_stats": {
-      "avg_bet": "1.00",
-      "big_fav": {
-        "total_picks": "1",
-        "roi": "47"
-      },
-      "sm_fav": {
-        "total_picks": "1",
-        "roi": "-100"
-      },
-      "sm_dog": {
-        "total_picks": "1",
-        "roi": "140"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab50131624643"
     },
     "user": "mmatakespodcast",
@@ -1296,31 +1071,6 @@
       "big_dog": {
         "total_picks": "57",
         "roi": "-24"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab50131624644"
-    },
-    "user": "darvaldez99",
-    "user_stats": {
-      "avg_bet": "nan",
-      "big_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
       }
     }
   },
@@ -1396,31 +1146,6 @@
       "big_dog": {
         "total_picks": "2",
         "roi": "235"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab50131624648"
-    },
-    "user": "msampaio98",
-    "user_stats": {
-      "avg_bet": "nan",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "2",
-        "roi": "88"
-      },
-      "sm_dog": {
-        "total_picks": "1",
-        "roi": "165"
-      },
-      "big_dog": {
-        "total_picks": "1",
-        "roi": "-100"
       }
     }
   },
@@ -1976,56 +1701,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab5013162465f"
-    },
-    "user": "AussieMMA",
-    "user_stats": {
-      "avg_bet": "3.60",
-      "big_fav": {
-        "total_picks": "2",
-        "roi": "42"
-      },
-      "sm_fav": {
-        "total_picks": "4",
-        "roi": "-100"
-      },
-      "sm_dog": {
-        "total_picks": "5",
-        "roi": "-47"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab50131624660"
-    },
-    "user": "Knoccouts",
-    "user_stats": {
-      "avg_bet": "1.33",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "1",
-        "roi": "-100"
-      },
-      "sm_dog": {
-        "total_picks": "2",
-        "roi": "31"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab50131624661"
     },
     "user": "Nour_Goatt",
@@ -2201,56 +1876,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab50131624668"
-    },
-    "user": "grindtotechno",
-    "user_stats": {
-      "avg_bet": "1.78",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "3",
-        "roi": "-81"
-      },
-      "sm_dog": {
-        "total_picks": "8",
-        "roi": "-16"
-      },
-      "big_dog": {
-        "total_picks": "1",
-        "roi": "220"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab50131624669"
-    },
-    "user": "bigboy1234",
-    "user_stats": {
-      "avg_bet": "2.10",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "13",
-        "roi": "4"
-      },
-      "sm_dog": {
-        "total_picks": "12",
-        "roi": "0"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab5013162466a"
     },
     "user": "SecondWindMMA",
@@ -2321,31 +1946,6 @@
       "big_dog": {
         "total_picks": "40",
         "roi": "-50"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab5013162466d"
-    },
-    "user": "donttailme",
-    "user_stats": {
-      "avg_bet": "2.00",
-      "big_fav": {
-        "total_picks": "1",
-        "roi": "52"
-      },
-      "sm_fav": {
-        "total_picks": "1",
-        "roi": "80"
-      },
-      "sm_dog": {
-        "total_picks": "3",
-        "roi": "-100"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
       }
     }
   },
@@ -3076,31 +2676,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab5013162468b"
-    },
-    "user": "Habibisufcpicks",
-    "user_stats": {
-      "avg_bet": "0.98",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "8",
-        "roi": "21"
-      },
-      "sm_dog": {
-        "total_picks": "10",
-        "roi": "18"
-      },
-      "big_dog": {
-        "total_picks": "4",
-        "roi": "-100"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab5013162468c"
     },
     "user": "TSInvestments",
@@ -3176,31 +2751,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab5013162468f"
-    },
-    "user": "LouBetya",
-    "user_stats": {
-      "avg_bet": "1.23",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "52",
-        "roi": "-20"
-      },
-      "sm_dog": {
-        "total_picks": "54",
-        "roi": "-14"
-      },
-      "big_dog": {
-        "total_picks": "17",
-        "roi": "48"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab50131624690"
     },
     "user": "SmartCapper",
@@ -3251,31 +2801,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab50131624692"
-    },
-    "user": "MmaPropAholic",
-    "user_stats": {
-      "avg_bet": "0.86",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "52",
-        "roi": "-8"
-      },
-      "sm_dog": {
-        "total_picks": "49",
-        "roi": "-20"
-      },
-      "big_dog": {
-        "total_picks": "16",
-        "roi": "-28"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab50131624693"
     },
     "user": "beermoneydc",
@@ -3296,81 +2821,6 @@
       "big_dog": {
         "total_picks": "10",
         "roi": "24"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab50131624694"
-    },
-    "user": "BriggsH",
-    "user_stats": {
-      "avg_bet": "1.88",
-      "big_fav": {
-        "total_picks": "1",
-        "roi": "53"
-      },
-      "sm_fav": {
-        "total_picks": "7",
-        "roi": "-59"
-      },
-      "sm_dog": {
-        "total_picks": "9",
-        "roi": "11"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab50131624695"
-    },
-    "user": "callmewhateva",
-    "user_stats": {
-      "avg_bet": "nan",
-      "big_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab50131624696"
-    },
-    "user": "SBolenBets",
-    "user_stats": {
-      "avg_bet": "1.14",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "27",
-        "roi": "3"
-      },
-      "sm_dog": {
-        "total_picks": "30",
-        "roi": "18"
-      },
-      "big_dog": {
-        "total_picks": "11",
-        "roi": "10"
       }
     }
   },
@@ -3451,31 +2901,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab5013162469a"
-    },
-    "user": "godlymma",
-    "user_stats": {
-      "avg_bet": "nan",
-      "big_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab5013162469b"
     },
     "user": "ProfitPicksMMA",
@@ -3521,31 +2946,6 @@
       "big_dog": {
         "total_picks": "17",
         "roi": "16"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab5013162469d"
-    },
-    "user": "ramblinonmma",
-    "user_stats": {
-      "avg_bet": "4.17",
-      "big_fav": {
-        "total_picks": "2",
-        "roi": "50"
-      },
-      "sm_fav": {
-        "total_picks": "4",
-        "roi": "68"
-      },
-      "sm_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
       }
     }
   },
@@ -3776,31 +3176,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab501316246a7"
-    },
-    "user": "3rdBestMJ",
-    "user_stats": {
-      "avg_bet": "0.57",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "4",
-        "roi": "39"
-      },
-      "sm_dog": {
-        "total_picks": "14",
-        "roi": "27"
-      },
-      "big_dog": {
-        "total_picks": "16",
-        "roi": "-45"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab501316246a8"
     },
     "user": "ntb_3",
@@ -3826,31 +3201,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab501316246a9"
-    },
-    "user": "LeviPicksMMA",
-    "user_stats": {
-      "avg_bet": "1.20",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "92",
-        "roi": "2"
-      },
-      "sm_dog": {
-        "total_picks": "100",
-        "roi": "8"
-      },
-      "big_dog": {
-        "total_picks": "29",
-        "roi": "68"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab501316246aa"
     },
     "user": "BobbyKnuckles",
@@ -3871,31 +3221,6 @@
       "big_dog": {
         "total_picks": "9",
         "roi": "-9"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab501316246ab"
-    },
-    "user": "UFCR3LL",
-    "user_stats": {
-      "avg_bet": "nan",
-      "big_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
       }
     }
   },
@@ -4026,31 +3351,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab501316246b1"
-    },
-    "user": "SpiderPicks",
-    "user_stats": {
-      "avg_bet": "2.68",
-      "big_fav": {
-        "total_picks": "5",
-        "roi": "-18"
-      },
-      "sm_fav": {
-        "total_picks": "8",
-        "roi": "28"
-      },
-      "sm_dog": {
-        "total_picks": "12",
-        "roi": "16"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab501316246b2"
     },
     "user": "KrameitBIII",
@@ -4071,31 +3371,6 @@
       "big_dog": {
         "total_picks": "20",
         "roi": "12"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab501316246b3"
-    },
-    "user": "the_sharpest",
-    "user_stats": {
-      "avg_bet": "1.33",
-      "big_fav": {
-        "total_picks": "1",
-        "roi": "42"
-      },
-      "sm_fav": {
-        "total_picks": "4",
-        "roi": "12"
-      },
-      "sm_dog": {
-        "total_picks": "4",
-        "roi": "23"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
       }
     }
   },
@@ -4251,31 +3526,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab501316246ba"
-    },
-    "user": "jpsmma",
-    "user_stats": {
-      "avg_bet": "2.20",
-      "big_fav": {
-        "total_picks": "2",
-        "roi": "-100"
-      },
-      "sm_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "2",
-        "roi": "50"
-      },
-      "big_dog": {
-        "total_picks": "1",
-        "roi": "-100"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab501316246bb"
     },
     "user": "MrBlonde",
@@ -4346,31 +3596,6 @@
       "big_dog": {
         "total_picks": "23",
         "roi": "-38"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab501316246be"
-    },
-    "user": "s2tm",
-    "user_stats": {
-      "avg_bet": "nan",
-      "big_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
       }
     }
   },
@@ -4551,31 +3776,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab501316246c6"
-    },
-    "user": "ToastBets",
-    "user_stats": {
-      "avg_bet": "1.02",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "4",
-        "roi": "-51"
-      },
-      "sm_dog": {
-        "total_picks": "5",
-        "roi": "2"
-      },
-      "big_dog": {
-        "total_picks": "3",
-        "roi": "-100"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab501316246c7"
     },
     "user": "AntPicksEm",
@@ -4651,56 +3851,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab501316246ca"
-    },
-    "user": "zacary14",
-    "user_stats": {
-      "avg_bet": "1.33",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "2",
-        "roi": "-100"
-      },
-      "big_dog": {
-        "total_picks": "1",
-        "roi": "-100"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab501316246cb"
-    },
-    "user": "ShamelessMMA",
-    "user_stats": {
-      "avg_bet": "2.72",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "1",
-        "roi": "-100"
-      },
-      "sm_dog": {
-        "total_picks": "5",
-        "roi": "-56"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab501316246cc"
     },
     "user": "Dingles",
@@ -4771,31 +3921,6 @@
       "big_dog": {
         "total_picks": "35",
         "roi": "-28"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab501316246cf"
-    },
-    "user": "Take5withErik",
-    "user_stats": {
-      "avg_bet": "1.00",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "1",
-        "roi": "-100"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
       }
     }
   },
@@ -5026,31 +4151,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab501316246d9"
-    },
-    "user": "ronakpatel",
-    "user_stats": {
-      "avg_bet": "1.21",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "16",
-        "roi": "35"
-      },
-      "sm_dog": {
-        "total_picks": "21",
-        "roi": "12"
-      },
-      "big_dog": {
-        "total_picks": "5",
-        "roi": "13"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab501316246da"
     },
     "user": "JoshP_UFCpicks",
@@ -5226,31 +4326,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab501316246e1"
-    },
-    "user": "bigfish04",
-    "user_stats": {
-      "avg_bet": "1.13",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "2",
-        "roi": "-4"
-      },
-      "sm_dog": {
-        "total_picks": "1",
-        "roi": "-100"
-      },
-      "big_dog": {
-        "total_picks": "1",
-        "roi": "225"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab501316246e2"
     },
     "user": "bigballer",
@@ -5326,56 +4401,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab501316246e5"
-    },
-    "user": "Wyatt",
-    "user_stats": {
-      "avg_bet": "17.50",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "5",
-        "roi": "-8"
-      },
-      "sm_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab501316246e6"
-    },
-    "user": "Claritybetss",
-    "user_stats": {
-      "avg_bet": "nan",
-      "big_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab501316246e7"
     },
     "user": "AussieFightFan",
@@ -5396,56 +4421,6 @@
       "big_dog": {
         "total_picks": "18",
         "roi": "19"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab501316246e8"
-    },
-    "user": "MMAGuru7165",
-    "user_stats": {
-      "avg_bet": "1.03",
-      "big_fav": {
-        "total_picks": "14",
-        "roi": "8"
-      },
-      "sm_fav": {
-        "total_picks": "9",
-        "roi": "-5"
-      },
-      "sm_dog": {
-        "total_picks": "13",
-        "roi": "-12"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab501316246e9"
-    },
-    "user": "sd463d",
-    "user_stats": {
-      "avg_bet": "2.45",
-      "big_fav": {
-        "total_picks": "1",
-        "roi": "-100"
-      },
-      "sm_fav": {
-        "total_picks": "4",
-        "roi": "81"
-      },
-      "sm_dog": {
-        "total_picks": "5",
-        "roi": "-17"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
       }
     }
   },
@@ -5501,31 +4476,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab501316246ec"
-    },
-    "user": "RearNakedPoke",
-    "user_stats": {
-      "avg_bet": "nan",
-      "big_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab501316246ed"
     },
     "user": "GabeYo",
@@ -5546,56 +4496,6 @@
       "big_dog": {
         "total_picks": "45",
         "roi": "4"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab501316246ee"
-    },
-    "user": "HoonsCrank",
-    "user_stats": {
-      "avg_bet": "2.94",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "11",
-        "roi": "6"
-      },
-      "sm_dog": {
-        "total_picks": "30",
-        "roi": "35"
-      },
-      "big_dog": {
-        "total_picks": "17",
-        "roi": "13"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab501316246ef"
-    },
-    "user": "gusb2003",
-    "user_stats": {
-      "avg_bet": "3.25",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "1",
-        "roi": "-100"
-      },
-      "sm_dog": {
-        "total_picks": "6",
-        "roi": "14"
-      },
-      "big_dog": {
-        "total_picks": "1",
-        "roi": "-100"
       }
     }
   },
@@ -5726,56 +4626,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab501316246f5"
-    },
-    "user": "Kaijitsu",
-    "user_stats": {
-      "avg_bet": "0.47",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "3",
-        "roi": "-69"
-      },
-      "sm_dog": {
-        "total_picks": "6",
-        "roi": "26"
-      },
-      "big_dog": {
-        "total_picks": "8",
-        "roi": "-100"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab501316246f6"
-    },
-    "user": "Vegapunk",
-    "user_stats": {
-      "avg_bet": "2.78",
-      "big_fav": {
-        "total_picks": "3",
-        "roi": "1"
-      },
-      "sm_fav": {
-        "total_picks": "3",
-        "roi": "-58"
-      },
-      "sm_dog": {
-        "total_picks": "3",
-        "roi": "-1"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab501316246f7"
     },
     "user": "bmyinc",
@@ -5851,31 +4701,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab501316246fa"
-    },
-    "user": "imrguille99",
-    "user_stats": {
-      "avg_bet": "0.96",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "3",
-        "roi": "17"
-      },
-      "sm_dog": {
-        "total_picks": "5",
-        "roi": "-58"
-      },
-      "big_dog": {
-        "total_picks": "5",
-        "roi": "-36"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab501316246fb"
     },
     "user": "letgoofwhatis",
@@ -5926,31 +4751,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab501316246fd"
-    },
-    "user": "One-Pick-Wally",
-    "user_stats": {
-      "avg_bet": "4.37",
-      "big_fav": {
-        "total_picks": "1",
-        "roi": "53"
-      },
-      "sm_fav": {
-        "total_picks": "3",
-        "roi": "10"
-      },
-      "sm_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "1",
-        "roi": "400"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab501316246fe"
     },
     "user": "zelooperz",
@@ -5976,31 +4776,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab501316246ff"
-    },
-    "user": "thedogking",
-    "user_stats": {
-      "avg_bet": "3.50",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "10",
-        "roi": "17"
-      },
-      "sm_dog": {
-        "total_picks": "29",
-        "roi": "65"
-      },
-      "big_dog": {
-        "total_picks": "8",
-        "roi": "40"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab50131624700"
     },
     "user": "AnyAction",
@@ -6021,31 +4796,6 @@
       "big_dog": {
         "total_picks": "6",
         "roi": "-73"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab50131624701"
-    },
-    "user": "gups",
-    "user_stats": {
-      "avg_bet": "nan",
-      "big_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
       }
     }
   },
@@ -6151,56 +4901,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab50131624706"
-    },
-    "user": "Cprawdzik",
-    "user_stats": {
-      "avg_bet": "1.00",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "1",
-        "roi": "-100"
-      },
-      "big_dog": {
-        "total_picks": "2",
-        "roi": "-100"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab50131624707"
-    },
-    "user": "DeludedMMA",
-    "user_stats": {
-      "avg_bet": "1.24",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "4",
-        "roi": "28"
-      },
-      "sm_dog": {
-        "total_picks": "5",
-        "roi": "-3"
-      },
-      "big_dog": {
-        "total_picks": "1",
-        "roi": "-100"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab50131624708"
     },
     "user": "lucianmma",
@@ -6221,81 +4921,6 @@
       "big_dog": {
         "total_picks": "46",
         "roi": "65"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab50131624709"
-    },
-    "user": "Amateur",
-    "user_stats": {
-      "avg_bet": "5.11",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "1",
-        "roi": "62"
-      },
-      "sm_dog": {
-        "total_picks": "3",
-        "roi": "-27"
-      },
-      "big_dog": {
-        "total_picks": "8",
-        "roi": "27"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab5013162470a"
-    },
-    "user": "MMAed",
-    "user_stats": {
-      "avg_bet": "3.14",
-      "big_fav": {
-        "total_picks": "4",
-        "roi": "6"
-      },
-      "sm_fav": {
-        "total_picks": "2",
-        "roi": "-21"
-      },
-      "sm_dog": {
-        "total_picks": "1",
-        "roi": "110"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab5013162470b"
-    },
-    "user": "MMAworld",
-    "user_stats": {
-      "avg_bet": "4.60",
-      "big_fav": {
-        "total_picks": "2",
-        "roi": "30"
-      },
-      "sm_fav": {
-        "total_picks": "2",
-        "roi": "-100"
-      },
-      "sm_dog": {
-        "total_picks": "1",
-        "roi": "120"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
       }
     }
   },
@@ -6371,31 +4996,6 @@
       "big_dog": {
         "total_picks": "4",
         "roi": "-10"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab5013162470f"
-    },
-    "user": "Mthw",
-    "user_stats": {
-      "avg_bet": "3.50",
-      "big_fav": {
-        "total_picks": "1",
-        "roi": "40"
-      },
-      "sm_fav": {
-        "total_picks": "6",
-        "roi": "9"
-      },
-      "sm_dog": {
-        "total_picks": "3",
-        "roi": "-17"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
       }
     }
   },
@@ -6601,31 +5201,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab50131624718"
-    },
-    "user": "0GravitySports",
-    "user_stats": {
-      "avg_bet": "1.09",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "14",
-        "roi": "-23"
-      },
-      "sm_dog": {
-        "total_picks": "23",
-        "roi": "-9"
-      },
-      "big_dog": {
-        "total_picks": "24",
-        "roi": "24"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab50131624719"
     },
     "user": "SwaggyZ23",
@@ -6646,56 +5221,6 @@
       "big_dog": {
         "total_picks": "122",
         "roi": "-10"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab5013162471a"
-    },
-    "user": "Airdog",
-    "user_stats": {
-      "avg_bet": "1.18",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "6",
-        "roi": "-88"
-      },
-      "sm_dog": {
-        "total_picks": "7",
-        "roi": "-11"
-      },
-      "big_dog": {
-        "total_picks": "7",
-        "roi": "-67"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab5013162471b"
-    },
-    "user": "MMAWhizzard",
-    "user_stats": {
-      "avg_bet": "nan",
-      "big_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
       }
     }
   },
@@ -6726,31 +5251,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab5013162471d"
-    },
-    "user": "TheRealMMAGuru",
-    "user_stats": {
-      "avg_bet": "nan",
-      "big_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab5013162471e"
     },
     "user": "Kiwi_mma",
@@ -6771,31 +5271,6 @@
       "big_dog": {
         "total_picks": "24",
         "roi": "-49"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab5013162471f"
-    },
-    "user": "Thomas9181",
-    "user_stats": {
-      "avg_bet": "4.22",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "9",
-        "roi": "4"
-      },
-      "sm_dog": {
-        "total_picks": "18",
-        "roi": "26"
-      },
-      "big_dog": {
-        "total_picks": "8",
-        "roi": "67"
       }
     }
   },
@@ -7026,31 +5501,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab50131624729"
-    },
-    "user": "degenerateufcIG",
-    "user_stats": {
-      "avg_bet": "1.65",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "27",
-        "roi": "-25"
-      },
-      "sm_dog": {
-        "total_picks": "17",
-        "roi": "40"
-      },
-      "big_dog": {
-        "total_picks": "6",
-        "roi": "-49"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab5013162472a"
     },
     "user": "LouCovMMA",
@@ -7076,31 +5526,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab5013162472b"
-    },
-    "user": "TheDON",
-    "user_stats": {
-      "avg_bet": "3.12",
-      "big_fav": {
-        "total_picks": "1",
-        "roi": "33"
-      },
-      "sm_fav": {
-        "total_picks": "2",
-        "roi": "0"
-      },
-      "sm_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab5013162472c"
     },
     "user": "ReggaeP",
@@ -7121,31 +5546,6 @@
       "big_dog": {
         "total_picks": "101",
         "roi": "7"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab5013162472d"
-    },
-    "user": "GuruScoutingMMA",
-    "user_stats": {
-      "avg_bet": "1.75",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "44",
-        "roi": "-16"
-      },
-      "sm_dog": {
-        "total_picks": "67",
-        "roi": "11"
-      },
-      "big_dog": {
-        "total_picks": "11",
-        "roi": "-38"
       }
     }
   },
@@ -7376,31 +5776,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab50131624737"
-    },
-    "user": "labambasaurus",
-    "user_stats": {
-      "avg_bet": "2.50",
-      "big_fav": {
-        "total_picks": "1",
-        "roi": "-100"
-      },
-      "sm_fav": {
-        "total_picks": "1",
-        "roi": "56"
-      },
-      "sm_dog": {
-        "total_picks": "2",
-        "roi": "-14"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab50131624738"
     },
     "user": "nolansmithmma",
@@ -7421,31 +5796,6 @@
       "big_dog": {
         "total_picks": "134",
         "roi": "-7"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab50131624739"
-    },
-    "user": "freakyting",
-    "user_stats": {
-      "avg_bet": "1.79",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "3",
-        "roi": "-25"
-      },
-      "sm_dog": {
-        "total_picks": "11",
-        "roi": "29"
-      },
-      "big_dog": {
-        "total_picks": "1",
-        "roi": "-100"
       }
     }
   },
@@ -7701,31 +6051,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab50131624744"
-    },
-    "user": "nathandiaz46",
-    "user_stats": {
-      "avg_bet": "1.00",
-      "big_fav": {
-        "total_picks": "1",
-        "roi": "-100"
-      },
-      "sm_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "1",
-        "roi": "125"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab50131624745"
     },
     "user": "WestCoastCapper",
@@ -7776,31 +6101,6 @@
   },
   {
     "_id": {
-      "$oid": "66185fb86c1ab50131624747"
-    },
-    "user": "KRich",
-    "user_stats": {
-      "avg_bet": "1.14",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "12",
-        "roi": "-32"
-      },
-      "sm_dog": {
-        "total_picks": "18",
-        "roi": "-39"
-      },
-      "big_dog": {
-        "total_picks": "6",
-        "roi": "21"
-      }
-    }
-  },
-  {
-    "_id": {
       "$oid": "66185fb86c1ab50131624748"
     },
     "user": "oil_check_mma",
@@ -7821,31 +6121,6 @@
       "big_dog": {
         "total_picks": "28",
         "roi": "59"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab50131624749"
-    },
-    "user": "basb456",
-    "user_stats": {
-      "avg_bet": "0.96",
-      "big_fav": {
-        "total_picks": "(0%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "15",
-        "roi": "12"
-      },
-      "sm_dog": {
-        "total_picks": "9",
-        "roi": "34"
-      },
-      "big_dog": {
-        "total_picks": "(0%)",
-        "roi": "nan"
       }
     }
   },
@@ -7896,31 +6171,6 @@
       "big_dog": {
         "total_picks": "70",
         "roi": "40"
-      }
-    }
-  },
-  {
-    "_id": {
-      "$oid": "66185fb86c1ab5013162474c"
-    },
-    "user": "StitchedUp",
-    "user_stats": {
-      "avg_bet": "nan",
-      "big_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_fav": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "sm_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
-      },
-      "big_dog": {
-        "total_picks": "(nan%)",
-        "roi": "nan"
       }
     }
   }
