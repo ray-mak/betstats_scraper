@@ -9,3 +9,5 @@ Third commit - I created a separate python file to scrape individual user data. 
 Fourth commit - I created a separate file to collect data on a fighters ROI on when they're an underdog and when they're a favorite. This will be added to the main scraper file.
 
 Fifth commit - I updated the userstats.py and fighterstats.py to scrape all the data that was created by scraper.py. I decided not to integrate it into the scraper.py function to keep things more organized. 
+
+Sixth commit - structured the layout for the page. Fetch the data and present it with React.
