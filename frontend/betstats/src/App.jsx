@@ -5,7 +5,8 @@ function App() {
   const [matchups, setMatchups] = useState([])
   const [fighterROI, setFighterROI] = useState([])
   const [userStats, setUserStats] = useState([])
-  
+  const [pickFilters, setPickFilters] = useState({"smDogPick": 0, "smFavPick": 0, "bigFavPick": 400, "bigDogPick": 0})
+
   useEffect(() => {
     async function getMatchups() {  
       const res = await fetch("https://ray-mak.github.io/betstats_scraper/matchups_4_11_updated.json")
@@ -27,6 +28,27 @@ function App() {
     getUserStats()
   }, [])
 
+  const calculateBetStats = (tips) => {
+    let sharpCount = 0
+    let squareCount = 0
+    tips.forEach(tip => {
+      const userBetStats = userStats.find(object => object.user === tip.href)
+      const userOdds = tip.odds
+      if (userBetStats && userBetStats.user_stats) {
+        if (userOdds < 1.54 && userBetStats.user_stats.big_fav.total_picks >= pickFilters.bigFavPick) {
+          userBetStats.user_stats.big_fav.roi <= 0 ? squareCount++ : sharpCount++
+        } else if (userOdds >= 1.54 && userOdds < 2 && userBetStats.user_stats.sm_fav.total_picks >= pickFilters.smFavPick) {
+          userBetStats.user_stats.sm_fav.roi <= 0 ? squareCount++ : sharpCount++
+        } else if (userOdds >= 2 && userOdds <= 2.86 && userBetStats.user_stats.sm_dog.total_picks >= pickFilters.smDogPick) {
+          userBetStats.user_stats.sm_dog.roi <= 0 ? squareCount++ : sharpCount++
+        } else if (userOdds > 2.86 && userBetStats.user_stats.big_dog.total_picks >= pickFilters.bigDogPick) {
+          userBetStats.user_stats.big_dog.roi <= 0 ? squareCount++ : sharpCount++
+        }
+      }
+    })
+    return {sharpCount, squareCount}
+  }
+
   const matchupCards = matchups.map((matchup, index) => {
     const fighter1stats = fighterROI.find(fighter => fighter.name === matchup.fighter1.name)
     const fighter1DogROI = fighter1stats.fighter_roi.dog_roi
@@ -36,28 +58,9 @@ function App() {
     const fighter2DogROI = fighter2stats.fighter_roi.dog_roi
     const fighter2FavROI = fighter2stats. fighter_roi.fav_roi
 
-    //Find the object in userStats with same name. 
-    // const user1Stats = userStats.find(object => object.user === matchup.fighter1.tips.href)
-    //access the "tips" array.
-    let sharpCount1 = 0
-    let squareCount1 = 0
-    const fighter1tips = matchup.fighter1.tips 
-    fighter1tips.forEach(tip => {
-      const user1Stats= userStats.find(object => object.user === tip.href)
-      const user1Odds = tip.odds
-      if (user1Stats && user1Stats.user_stats) {
-        if (user1Odds < 1.54) {
-          user1Stats.user_stats.big_fav.roi <= 0 ? squareCount1++ : sharpCount1++ 
-        } else if (user1Odds >= 1.54 && user1Odds < 2) {
-          user1Stats.user_stats.sm_fav.roi <= 0 ? squareCount1++ : sharpCount1++
-        } else if (user1Odds >= 2 && user1Odds <= 2.86) {
-          user1Stats.user_stats.sm_dog.roi <= 0 ? squareCount1++ : sharpCount1++
-        } else {
-          user1Stats.user_stats.big_dog.roi <= 0 ? squareCount1++ : sharpCount1++
-        }
-      }  
-    })
-    
+    const {sharpCount: sharpCount1, squareCount: squareCount1} = calculateBetStats(matchup.fighter1.tips)
+    const {sharpCount: sharpCount2, squareCount: squareCount2} = calculateBetStats(matchup.fighter2.tips)
+
     return (
       <div className="matchup-container" key={index}>
         <div className="fighter1">
@@ -75,8 +78,8 @@ function App() {
           <p>ROI as Favorite: <span>{fighter2FavROI}</span></p>
           <p>ROI as Underdog: <span>{fighter2DogROI}</span></p>
           <h3>Betting Stats</h3>
-          <p>Sharp Bets: <span>50</span></p>
-          <p>Square Bets: <span>24</span></p>
+          <p>Sharp Bets: <span>{sharpCount2}</span></p>
+          <p>Square Bets: <span>{squareCount2}</span></p>
         </div>
       </div>
     )
