@@ -1,9 +1,16 @@
 from bs4 import BeautifulSoup
 import urllib.request as urllib3
 from googlesearch import search
+from datetime import datetime
 
 def getPage(name):
-    query = "site:ufcstats.com " + name
+    nameSplit = name.split()
+    if len(nameSplit) > 2:
+        del nameSplit[1]
+        updatedName = " ".join(nameSplit)
+    else: 
+        updatedName = name    
+    query = "site:ufcstats.com " + updatedName
     for i in search(query, tld="com", num=3, stop=1, pause=2):
         url = i
 
@@ -25,7 +32,13 @@ def getStats(name):
                 stats.append([stat_name, stat_num])
     
     allStats = {stat[0]: stat[1] for stat in stats}
+    dob_str = allStats["DOB:"]
+    dob_date = datetime.strptime(dob_str, "%b %d, %Y")
+    today = datetime.today()
+    age = today.year - dob_date.year - ((today.month, today.day) < (dob_date.month, dob_date.day))
+    allStats["Age:"] = age
+
     return allStats
 
-test = getStats("Alex Pereira")
+test = getStats("marina alcalde rodriguez")
 print(test)
