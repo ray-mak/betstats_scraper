@@ -49,46 +49,84 @@ function App() {
     return {sharpCount, squareCount}
   }
 
-  const matchupCards = matchups.map((matchup, index) => {
-    const fighter1stats = fighterROI.find(fighter => fighter.name === matchup.fighter1.name)
-    const fighter1DogROI = fighter1stats.fighter_roi.dog_roi
-    const fighter1FavROI = fighter1stats.fighter_roi.fav_roi
+  // const matchupCards = matchups.map((matchup, index) => {
+  //   const fighter1stats = fighterROI.find(fighter => fighter.name === matchup.fighter1.name)
+  //   const fighter1DogROI = fighter1stats.fighter_roi.dog_roi
+  //   const fighter1FavROI = fighter1stats.fighter_roi.fav_roi
 
-    const fighter2stats = fighterROI.find(fighter => fighter.name === matchup.fighter2.name)
-    const fighter2DogROI = fighter2stats.fighter_roi.dog_roi
-    const fighter2FavROI = fighter2stats. fighter_roi.fav_roi
+  //   const fighter2stats = fighterROI.find(fighter => fighter.name === matchup.fighter2.name)
+  //   const fighter2DogROI = fighter2stats.fighter_roi.dog_roi
+  //   const fighter2FavROI = fighter2stats. fighter_roi.fav_roi
 
-    const {sharpCount: sharpCount1, squareCount: squareCount1} = calculateBetStats(matchup.fighter1.tips)
-    const {sharpCount: sharpCount2, squareCount: squareCount2} = calculateBetStats(matchup.fighter2.tips)
+  //   const {sharpCount: sharpCount1, squareCount: squareCount1} = calculateBetStats(matchup.fighter1.tips)
+  //   const {sharpCount: sharpCount2, squareCount: squareCount2} = calculateBetStats(matchup.fighter2.tips)
 
-    return (
-      <div className="matchup-container" key={index}>
-        <div className="fighter1">
-          <h2>{matchup.fighter1.name}</h2>
-          <h3>Fighter ROI</h3>
-          <p>ROI as Favorite: <span>{fighter1FavROI}</span></p>
-          <p>ROI as Underdog: <span>{fighter1DogROI}</span></p>
-          <h3>Betting Stats</h3>
-          <p>Sharp Bets: <span>{sharpCount1}</span></p>
-          <p>Square Bets: <span>{squareCount1}</span></p>
-        </div>
-        <div className="fighter2">
-          <h2>{matchup.fighter2.name}</h2>
-          <h3>Fighter ROI</h3>
-          <p>ROI as Favorite: <span>{fighter2FavROI}</span></p>
-          <p>ROI as Underdog: <span>{fighter2DogROI}</span></p>
-          <h3>Betting Stats</h3>
-          <p>Sharp Bets: <span>{sharpCount2}</span></p>
-          <p>Square Bets: <span>{squareCount2}</span></p>
-        </div>
-      </div>
-    )
-  })
+  //   return (
+  //     <div className="matchup-container" key={index}>
+  //       <div className="fighter1">
+  //         <h2>{matchup.fighter1.name}</h2>
+  //         <h3>Fighter ROI</h3>
+  //         <p>ROI as Favorite: <span>{fighter1FavROI}</span></p>
+  //         <p>ROI as Underdog: <span>{fighter1DogROI}</span></p>
+  //         <h3>Betting Stats</h3>
+  //         <p>Sharp Bets: <span>{sharpCount1}</span></p>
+  //         <p>Square Bets: <span>{squareCount1}</span></p>
+  //       </div>
+  //       <div className="fighter2">
+  //         <h2>{matchup.fighter2.name}</h2>
+  //         <h3>Fighter ROI</h3>
+  //         <p>ROI as Favorite: <span>{fighter2FavROI}</span></p>
+  //         <p>ROI as Underdog: <span>{fighter2DogROI}</span></p>
+  //         <h3>Betting Stats</h3>
+  //         <p>Sharp Bets: <span>{sharpCount2}</span></p>
+  //         <p>Square Bets: <span>{squareCount2}</span></p>
+  //       </div>
+  //     </div>
+  //   )
+  // })
   
 
   return (
     <div className="main-container">
-      {matchupCards}
+      {/* {matchupCards} */}
+      <div className="matchup-container">
+        <div className="h2h-container">
+          <img src="https://images.tapology.com/headshot_images/13299/large/alex-perez.jpg?1601654127" alt="Picture of Alex Perez"/>
+          <table>
+            <tbody>
+              <tr>
+                <td className="fighter-name">Alex Pereira</td>
+                <td>vs</td>
+                <td className="fighter-name">Jamahal Hill</td>
+              </tr>
+              <tr>
+                <td>36</td>
+                <td>Age</td>
+                <td>32</td>
+              </tr>
+              <tr>
+                <td>6' 4"</td>
+                <td>Height</td>
+                <td>6' 4"</td>
+              </tr>
+              <tr>
+                <td>205 lbs.</td>
+                <td>Weight</td>
+                <td>205 lbs.</td>
+              </tr>
+              <tr>
+                <td>79"</td>
+                <td>Reach</td>
+                <td>79"</td>
+              </tr>
+            </tbody>
+          </table>
+          <img src="https://images.tapology.com/headshot_images/13299/large/alex-perez.jpg?1601654127" alt="Picture of Alex Perez"/>
+        </div>
+        <div className="adv-stats-container">
+          <div className="adv-stats-label">ADVANCED STATS</div>
+       </div>
+      </div>   
     </div>
   )
 }

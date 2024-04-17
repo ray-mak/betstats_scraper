@@ -2,6 +2,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+:root {
+  --red: #E73725;
+  --light-gray: #E1E1E1;
+  --dark-gray: #414141;
+  --almost-black: #272626;
+  --almost-white: #eeeded;
+  --white: #fff;
 }
 
 .main-container {
@@ -13,7 +23,63 @@
 
 .matchup-container {
   display: flex;
-  width: 500px;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
   margin-top: 80px;
+  background-color: var(--almost-white);
+  padding: 16px;
+}
+
+.h2h-container {
+  display: flex;
+  align-items: center;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 480px;
+  margin: 0 16px
+}
+
+
+tbody tr:nth-child(2), tbody tr:nth-child(4) {
+  background-color: var(--white);
+}
+
+td {
+  padding: 8px;
+}
+
+tr td:nth-child(1) {
+  width: 40%;
+  text-align: end;
+  font-weight: 600;
+}
+
+tr td:nth-child(2) {
+  width: 20%;
+  text-align: center;
+  color: var(--dark-gray)
+}
+
+tr td:nth-child(3) {
+  width: 40%;
+  font-weight: 600;
+}
+
+.fighter-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--red)
+}
+
+.adv-stats-container {
+  width: 100%;
+  margin-top: 12px;
+  background-color: var(--dark-gray);
+}
+
+.adv-stats-label {
+  color: var(--almost-white)
 }
