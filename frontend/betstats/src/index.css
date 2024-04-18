@@ -7,10 +7,10 @@
 
 :root {
   --red: #E73725;
-  --light-gray: #E1E1E1;
+  --light-gray: #d6d6d6;
   --dark-gray: #414141;
   --almost-black: #272626;
-  --almost-white: #eeeded;
+  --almost-white: #f3f3f3;
   --white: #fff;
 }
 
@@ -39,11 +39,10 @@ table {
   table-layout: fixed;
   border-collapse: collapse;
   width: 480px;
-  margin: 0 16px
+  margin: 8px 16px;
 }
 
-
-tbody tr:nth-child(2), tbody tr:nth-child(4) {
+.h2h-container tr:nth-child(2), .h2h-container tr:nth-child(4) {
   background-color: var(--white);
 }
 
@@ -51,8 +50,12 @@ td {
   padding: 8px;
 }
 
-tr td:nth-child(1) {
+.h2h-container td:nth-child(1),
+.h2h-container td:nth-child(3) {
   width: 40%;
+}
+
+tr td:nth-child(1) {
   text-align: end;
   font-weight: 600;
 }
@@ -60,11 +63,13 @@ tr td:nth-child(1) {
 tr td:nth-child(2) {
   width: 20%;
   text-align: center;
+}
+
+.h2h-container tr td:nth-child(2) {
   color: var(--dark-gray)
 }
 
 tr td:nth-child(3) {
-  width: 40%;
   font-weight: 600;
 }
 
@@ -74,12 +79,83 @@ tr td:nth-child(3) {
   color: var(--red)
 }
 
-.adv-stats-container {
+.adv-stats-container,
+.bet-stats-container {
   width: 100%;
   margin-top: 12px;
+  padding: 12px;
+}
+
+.adv-stats-container {
   background-color: var(--dark-gray);
 }
 
 .adv-stats-label {
+  color: var(--almost-white);
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  width: 16px;
+  margin-left: auto;
+  transition: .2s;
+}
+
+.arrow.toggled {
+  transform: scaleY(-1);
+}
+
+.adv-stats, 
+.bet-stats {
+  display:flex;
+  justify-content: center;
+  max-height: 0;
+  overflow: hidden;
+  transition: .2s ease-in;
+}
+
+.adv-stats.toggled {
+  max-height: 300px;
+  transition: .2s ease-out;
+}
+
+.bet-stats.toggled {
+  max-height: 160px;
+  transition: .2s ease-out
+}
+
+.adv-stats td {
   color: var(--almost-white)
+}
+
+.adv-stats td:nth-child(2),
+.bet-stats td:nth-child(2) {
+  width: 70%;
+  margin: 0 16px;
+}
+
+.adv-stats td:nth-child(1), .adv-stats td:nth-child(3) {
+  width: 15%;
+}
+
+.adv-stats tr:nth-child(2),
+.adv-stats tr:nth-child(4),
+.adv-stats tr:nth-child(6),
+.adv-stats tr:nth-child(8) {
+  background-color: var(--almost-black);
+}
+
+.bet-stats-container {
+  background-color: var(--light-gray);
+}
+
+.bet-stats-container .adv-stats-label {
+  color: var(--almost-black);
+  font-weight: 600;
+}
+
+.bet-stats tr:nth-child(2),
+.bet-stats tr:nth-child(4) {
+  background-color: var(--almost-white);
 }

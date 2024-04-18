@@ -1,260 +1,702 @@
 [{
   "_id": {
-    "$oid": "6618b804fc0ddf3de9959218"
+    "$oid": "661dcdf3c24640e0d79e6873"
   },
   "name": "Alex Pereira",
   "fighter_roi": {
-    "fav_roi": "51.25%",
+    "fav_roi": "57.4%",
     "dog_roi": "144.75%"
-  }
+  },
+  "stats": {
+    "Height:": "6' 4\"",
+    "Weight:": "205 lbs.",
+    "Reach:": "79\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Jul 07, 1987",
+    "SLpM:": "5.10",
+    "Str. Acc.:": "62%",
+    "SApM:": "3.65",
+    "Str. Def:": "50%",
+    "TD Avg.:": "0.18",
+    "TD Acc.:": "100%",
+    "TD Def.:": "70%",
+    "Sub. Avg.:": "0.4",
+    "Age:": 36
+  },
+  "img": "https://images.tapology.com/letterbox_images/117305/default/Screen_Shot_2021-03-28_at_3.55.02_PM.png?1616957715"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de9959219"
+    "$oid": "661dcdf3c24640e0d79e6874"
   },
   "name": "Jamahal Hill",
   "fighter_roi": {
     "fav_roi": "41.38%",
-    "dog_roi": "170.0%"
-  }
+    "dog_roi": "35.0%"
+  },
+  "stats": {
+    "Height:": "6' 4\"",
+    "Weight:": "205 lbs.",
+    "Reach:": "79\"",
+    "STANCE:": "Southpaw",
+    "DOB:": "May 19, 1991",
+    "SLpM:": "7.18",
+    "Str. Acc.:": "54%",
+    "SApM:": "3.51",
+    "Str. Def:": "46%",
+    "TD Avg.:": "0.00",
+    "TD Acc.:": "0%",
+    "TD Def.:": "73%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 32
+  },
+  "img": "https://images.tapology.com/letterbox_images/120815/default/Jamahal_Hill.jpg?1580023564"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de995921a"
+    "$oid": "661dcdf3c24640e0d79e6875"
   },
   "name": "Weili Zhang",
   "fighter_roi": {
-    "fav_roi": "14.44%",
+    "fav_roi": "15.2%",
     "dog_roi": "185.0%"
-  }
+  },
+  "stats": {
+    "Height:": "5' 4\"",
+    "Weight:": "115 lbs.",
+    "Reach:": "63\"",
+    "STANCE:": "Switch",
+    "DOB:": "Aug 13, 1989",
+    "SLpM:": "5.66",
+    "Str. Acc.:": "53%",
+    "SApM:": "3.15",
+    "Str. Def:": "53%",
+    "TD Avg.:": "2.51",
+    "TD Acc.:": "46%",
+    "TD Def.:": "50%",
+    "Sub. Avg.:": "0.5",
+    "Age:": 34
+  },
+  "img": "https://images.tapology.com/letterbox_images/83443/default/Weili_Zhang2.jpg?1502340967"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de995921b"
+    "$oid": "661dcdf3c24640e0d79e6876"
   },
   "name": "Yan Xiaonan",
   "fighter_roi": {
     "fav_roi": "27.5%",
-    "dog_roi": "93.0%"
-  }
+    "dog_roi": "54.4%"
+  },
+  "stats": {
+    "Height:": "5' 5\"",
+    "Weight:": "115 lbs.",
+    "Reach:": "63\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Jun 16, 1989",
+    "SLpM:": "4.97",
+    "Str. Acc.:": "44%",
+    "SApM:": "3.66",
+    "Str. Def:": "58%",
+    "TD Avg.:": "1.00",
+    "TD Acc.:": "73%",
+    "TD Def.:": "62%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 34
+  },
+  "img": "https://images.tapology.com/letterbox_images/12602/default/Screenshot_20201107_164011.jpg?1604767235"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de995921c"
+    "$oid": "661dcdf3c24640e0d79e6877"
   },
   "name": "Max Holloway",
   "fighter_roi": {
     "fav_roi": "19.37%",
-    "dog_roi": "11.0%"
-  }
+    "dog_roi": "28.11%"
+  },
+  "stats": {
+    "Height:": "5' 11\"",
+    "Weight:": "145 lbs.",
+    "Reach:": "69\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Dec 04, 1991",
+    "SLpM:": "7.17",
+    "Str. Acc.:": "48%",
+    "SApM:": "4.72",
+    "Str. Def:": "59%",
+    "TD Avg.:": "0.25",
+    "TD Acc.:": "53%",
+    "TD Def.:": "84%",
+    "Sub. Avg.:": "0.3",
+    "Age:": 32
+  },
+  "img": "https://images.tapology.com/letterbox_images/12723/default/Holloway-Max-UFC155-1.jpg?1356760787"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de995921d"
+    "$oid": "661dcdf3c24640e0d79e6878"
   },
   "name": "Justin Gaethje",
   "fighter_roi": {
-    "fav_roi": "12.0%",
+    "fav_roi": "-6.67%",
     "dog_roi": "66.56%"
-  }
+  },
+  "stats": {
+    "Height:": "5' 11\"",
+    "Weight:": "155 lbs.",
+    "Reach:": "70\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Nov 14, 1988",
+    "SLpM:": "6.78",
+    "Str. Acc.:": "59%",
+    "SApM:": "7.46",
+    "Str. Def:": "52%",
+    "TD Avg.:": "0.11",
+    "TD Acc.:": "25%",
+    "TD Def.:": "75%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 35
+  },
+  "img": "https://images.tapology.com/letterbox_images/16421/default/image.jpg?1555518358"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de995921e"
+    "$oid": "661dcdf3c24640e0d79e6879"
   },
   "name": "Bo Nickal",
   "fighter_roi": {
-    "fav_roi": "5.5%",
-    "dog_roi": "No matchups where fighter is underdog%"
-  }
+    "fav_roi": "5.8%",
+    "dog_roi": "No matchups where fighter is underdog"
+  },
+  "stats": {
+    "Height:": "6' 1\"",
+    "Weight:": "185 lbs.",
+    "Reach:": "76\"",
+    "STANCE:": "Southpaw",
+    "DOB:": "Jan 14, 1996",
+    "SLpM:": "1.64",
+    "Str. Acc.:": "62%",
+    "SApM:": "0.50",
+    "Str. Def:": "70%",
+    "TD Avg.:": "7.46",
+    "TD Acc.:": "50%",
+    "TD Def.:": "0%",
+    "Sub. Avg.:": "7.5",
+    "Age:": 28
+  },
+  "img": "https://images.tapology.com/letterbox_images/244627/default/Bo_Nickal.jpg?1657132648"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de995921f"
+    "$oid": "661dcdf3c24640e0d79e687a"
   },
   "name": "Cody Brundage",
   "fighter_roi": {
     "fav_roi": "-100.0%",
-    "dog_roi": "88.57%"
-  }
+    "dog_roi": "65.0%"
+  },
+  "stats": {
+    "Height:": "6' 0\"",
+    "Weight:": "185 lbs.",
+    "Reach:": "72\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "May 16, 1994",
+    "SLpM:": "1.62",
+    "Str. Acc.:": "54%",
+    "SApM:": "2.30",
+    "Str. Def:": "43%",
+    "TD Avg.:": "2.33",
+    "TD Acc.:": "52%",
+    "TD Def.:": "68%",
+    "Sub. Avg.:": "0.9",
+    "Age:": 29
+  },
+  "img": "https://images.tapology.com/letterbox_images/169818/default/cody-brundage.jpg?1712165704"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de9959220"
+    "$oid": "661dcdf3c24640e0d79e687b"
   },
   "name": "Charles Oliveira",
   "fighter_roi": {
     "fav_roi": "36.33%",
-    "dog_roi": "42.67%"
-  }
+    "dog_roi": "31.69%"
+  },
+  "stats": {
+    "Height:": "5' 10\"",
+    "Weight:": "155 lbs.",
+    "Reach:": "74\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Oct 17, 1989",
+    "SLpM:": "3.39",
+    "Str. Acc.:": "53%",
+    "SApM:": "3.20",
+    "Str. Def:": "51%",
+    "TD Avg.:": "2.17",
+    "TD Acc.:": "40%",
+    "TD Def.:": "55%",
+    "Sub. Avg.:": "2.8",
+    "Age:": 34
+  },
+  "img": "https://images.tapology.com/letterbox_images/1613/default/IMG_20220822_213322.jpg?1661200598"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de9959221"
+    "$oid": "661dcdf3c24640e0d79e687c"
   },
   "name": "Arman Tsarukyan",
   "fighter_roi": {
-    "fav_roi": "20.78%",
+    "fav_roi": "24.0%",
     "dog_roi": "-100.0%"
-  }
+  },
+  "stats": {
+    "Height:": "5' 7\"",
+    "Weight:": "155 lbs.",
+    "Reach:": "72\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Oct 11, 1996",
+    "SLpM:": "3.79",
+    "Str. Acc.:": "48%",
+    "SApM:": "1.84",
+    "Str. Def:": "53%",
+    "TD Avg.:": "3.25",
+    "TD Acc.:": "37%",
+    "TD Def.:": "75%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 27
+  },
+  "img": "https://images.tapology.com/letterbox_images/115752/default/Arman_Tsarukyan.jpg?1655131245"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de9959222"
+    "$oid": "661dcdf3c24640e0d79e687d"
   },
   "name": "Aleksandar Rakic",
   "fighter_roi": {
     "fav_roi": "7.71%",
-    "dog_roi": "105.0%"
-  }
+    "dog_roi": "2.5%"
+  },
+  "stats": {
+    "Height:": "6' 4\"",
+    "Weight:": "205 lbs.",
+    "Reach:": "78\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Feb 06, 1992",
+    "SLpM:": "4.26",
+    "Str. Acc.:": "50%",
+    "SApM:": "2.80",
+    "Str. Def:": "50%",
+    "TD Avg.:": "0.76",
+    "TD Acc.:": "25%",
+    "TD Def.:": "85%",
+    "Sub. Avg.:": "0.1",
+    "Age:": 32
+  },
+  "img": "<img alt=\"Aleksandar &quot;Rocket&quot; Rakić\" src=\"https://images.tapology.com/letterbox_images/75026/default/Aleksandar_Rakic%CC%81_.jpg?1544308530\">"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de9959223"
+    "$oid": "661dcdf3c24640e0d79e687e"
   },
   "name": "Jiri Prochazka",
   "fighter_roi": {
     "fav_roi": "42.0%",
-    "dog_roi": "17.5%"
-  }
+    "dog_roi": "45.0%"
+  },
+  "stats": {
+    "Height:": "6' 3\"",
+    "Weight:": "205 lbs.",
+    "Reach:": "80\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Oct 14, 1992",
+    "SLpM:": "5.75",
+    "Str. Acc.:": "56%",
+    "SApM:": "5.43",
+    "Str. Def:": "41%",
+    "TD Avg.:": "0.79",
+    "TD Acc.:": "60%",
+    "TD Def.:": "68%",
+    "Sub. Avg.:": "0.3",
+    "Age:": 31
+  },
+  "img": "https://images.tapology.com/letterbox_images/34779/default/IMG_20201028_052204.jpg?1603862546"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de9959224"
+    "$oid": "661dcdf3c24640e0d79e687f"
   },
   "name": "Aljamain Sterling",
   "fighter_roi": {
-    "fav_roi": "28.58%",
+    "fav_roi": "30.92%",
     "dog_roi": "86.43%"
-  }
+  },
+  "stats": {
+    "Height:": "5' 7\"",
+    "Weight:": "145 lbs.",
+    "Reach:": "71\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Jul 31, 1989",
+    "SLpM:": "4.61",
+    "Str. Acc.:": "52%",
+    "SApM:": "2.30",
+    "Str. Def:": "58%",
+    "TD Avg.:": "2.31",
+    "TD Acc.:": "27%",
+    "TD Def.:": "45%",
+    "Sub. Avg.:": "0.7",
+    "Age:": 34
+  },
+  "img": "https://images.tapology.com/letterbox_images/13201/default/IMG_20220720_212158.jpg?1658348547"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de9959225"
+    "$oid": "661dcdf3c24640e0d79e6880"
   },
   "name": "Calvin Kattar",
   "fighter_roi": {
     "fav_roi": "19.4%",
-    "dog_roi": "39.86%"
-  }
+    "dog_roi": "22.37%"
+  },
+  "stats": {
+    "Height:": "5' 11\"",
+    "Weight:": "145 lbs.",
+    "Reach:": "72\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Mar 26, 1988",
+    "SLpM:": "4.76",
+    "Str. Acc.:": "39%",
+    "SApM:": "6.75",
+    "Str. Def:": "54%",
+    "TD Avg.:": "0.39",
+    "TD Acc.:": "29%",
+    "TD Def.:": "72%",
+    "Sub. Avg.:": "0.1",
+    "Age:": 36
+  },
+  "img": "https://images.tapology.com/letterbox_images/1425/default/Calvin_Kattar.jpg?1516260047"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de9959226"
+    "$oid": "661dcdf3c24640e0d79e6881"
   },
   "name": "Holly Holm",
   "fighter_roi": {
     "fav_roi": "-3.82%",
-    "dog_roi": "224.75%"
-  }
+    "dog_roi": "159.8%"
+  },
+  "stats": {
+    "Height:": "5' 8\"",
+    "Weight:": "135 lbs.",
+    "Reach:": "69\"",
+    "STANCE:": "Southpaw",
+    "DOB:": "Oct 17, 1981",
+    "SLpM:": "3.13",
+    "Str. Acc.:": "40%",
+    "SApM:": "2.92",
+    "Str. Def:": "55%",
+    "TD Avg.:": "0.87",
+    "TD Acc.:": "30%",
+    "TD Def.:": "76%",
+    "Sub. Avg.:": "0.1",
+    "Age:": 42
+  },
+  "img": "https://images.tapology.com/letterbox_images/18698/default/Holly-Holm.jpg?1553178886"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de9959227"
+    "$oid": "661dcdf3c24640e0d79e6882"
   },
   "name": "Kayla Harrison",
   "fighter_roi": {
-    "fav_roi": "1.44%",
-    "dog_roi": "No matchups where fighter is underdog%"
-  }
+    "fav_roi": "2.71%",
+    "dog_roi": "No matchups where fighter is underdog"
+  },
+  "stats": {
+    "Height:": "5' 8\"",
+    "Weight:": "135 lbs.",
+    "Reach:": "66\"",
+    "STANCE:": "Southpaw",
+    "DOB:": "Jul 02, 1990",
+    "SLpM:": "7.52",
+    "Str. Acc.:": "71%",
+    "SApM:": "0.29",
+    "Str. Def:": "83%",
+    "TD Avg.:": "4.42",
+    "TD Acc.:": "40%",
+    "TD Def.:": "100%",
+    "Sub. Avg.:": "2.2",
+    "Age:": 33
+  },
+  "img": "https://images.tapology.com/letterbox_images/34265/default/Kayla_Harrison.jpg?1525295979"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de9959228"
+    "$oid": "661dcdf3c24640e0d79e6883"
   },
   "name": "Sodiq Yusuff",
   "fighter_roi": {
     "fav_roi": "7.13%",
-    "dog_roi": "230.0%"
-  }
+    "dog_roi": "65.0%"
+  },
+  "stats": {
+    "Height:": "5' 9\"",
+    "Weight:": "145 lbs.",
+    "Reach:": "71\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "May 19, 1993",
+    "SLpM:": "5.66",
+    "Str. Acc.:": "49%",
+    "SApM:": "4.51",
+    "Str. Def:": "53%",
+    "TD Avg.:": "0.28",
+    "TD Acc.:": "20%",
+    "TD Def.:": "62%",
+    "Sub. Avg.:": "0.4",
+    "Age:": 30
+  },
+  "img": "https://images.tapology.com/letterbox_images/58362/default/Sodiq_Yusuff.jpg?1541484407"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de9959229"
+    "$oid": "661dcdf3c24640e0d79e6884"
   },
   "name": "Diego Lopes",
   "fighter_roi": {
-    "fav_roi": "-19.5%",
+    "fav_roi": "11.67%",
     "dog_roi": "2.5%"
-  }
+  },
+  "stats": {
+    "Height:": "5' 11\"",
+    "Weight:": "145 lbs.",
+    "Reach:": "72\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Dec 30, 1994",
+    "SLpM:": "3.22",
+    "Str. Acc.:": "58%",
+    "SApM:": "4.73",
+    "Str. Def:": "37%",
+    "TD Avg.:": "0.00",
+    "TD Acc.:": "0%",
+    "TD Def.:": "42%",
+    "Sub. Avg.:": "5.0",
+    "Age:": 29
+  },
+  "img": "https://images.tapology.com/letterbox_images/85643/default/55554450_625477591236755_8661314822450708480_n.jpg?1553106120"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de995922a"
+    "$oid": "661dcdf3c24640e0d79e6885"
   },
   "name": "Renato Moicano",
   "fighter_roi": {
     "fav_roi": "0.44%",
-    "dog_roi": "52.33%"
-  }
+    "dog_roi": "77.0%"
+  },
+  "stats": {
+    "Height:": "5' 11\"",
+    "Weight:": "155 lbs.",
+    "Reach:": "72\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "May 21, 1989",
+    "SLpM:": "4.38",
+    "Str. Acc.:": "48%",
+    "SApM:": "3.68",
+    "Str. Def:": "60%",
+    "TD Avg.:": "1.89",
+    "TD Acc.:": "45%",
+    "TD Def.:": "72%",
+    "Sub. Avg.:": "0.6",
+    "Age:": 34
+  },
+  "img": "https://images.tapology.com/letterbox_images/16950/default/Renato_Moicano.jpg?1544647158"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de995922b"
+    "$oid": "661dcdf3c24640e0d79e6886"
   },
   "name": "Jalin Turner",
   "fighter_roi": {
-    "fav_roi": "15.78%",
+    "fav_roi": "4.2%",
     "dog_roi": "-30.67%"
-  }
+  },
+  "stats": {
+    "Height:": "6' 3\"",
+    "Weight:": "155 lbs.",
+    "Reach:": "77\"",
+    "STANCE:": "Southpaw",
+    "DOB:": "May 18, 1995",
+    "SLpM:": "5.60",
+    "Str. Acc.:": "48%",
+    "SApM:": "4.57",
+    "Str. Def:": "41%",
+    "TD Avg.:": "0.79",
+    "TD Acc.:": "55%",
+    "TD Def.:": "74%",
+    "Sub. Avg.:": "1.1",
+    "Age:": 28
+  },
+  "img": "https://images.tapology.com/letterbox_images/68396/default/11001871_997782826916595_7801625957164256059_n.jpg?1443619465"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de995922c"
+    "$oid": "661dcdf3c24640e0d79e6887"
   },
   "name": "Jessica Andrade",
   "fighter_roi": {
-    "fav_roi": "14.58%",
+    "fav_roi": "17.4%",
     "dog_roi": "-6.71%"
-  }
+  },
+  "stats": {
+    "Height:": "5' 1\"",
+    "Weight:": "115 lbs.",
+    "Reach:": "62\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Sep 25, 1991",
+    "SLpM:": "6.62",
+    "Str. Acc.:": "50%",
+    "SApM:": "5.37",
+    "Str. Def:": "55%",
+    "TD Avg.:": "2.37",
+    "TD Acc.:": "55%",
+    "TD Def.:": "72%",
+    "Sub. Avg.:": "0.3",
+    "Age:": 32
+  },
+  "img": "https://images.tapology.com/letterbox_images/34388/default/Je%CC%81ssica_Andrade.jpg?1519581027"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de995922d"
+    "$oid": "661dcdf3c24640e0d79e6888"
   },
   "name": "Marina Alcalde Rodriguez",
   "fighter_roi": {
     "fav_roi": "-21.57%",
-    "dog_roi": "186.33%"
-  }
+    "dog_roi": "114.75%"
+  },
+  "stats": {
+    "Height:": "5' 6\"",
+    "Weight:": "115 lbs.",
+    "Reach:": "65\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Apr 29, 1987",
+    "SLpM:": "4.82",
+    "Str. Acc.:": "47%",
+    "SApM:": "3.12",
+    "Str. Def:": "55%",
+    "TD Avg.:": "0.23",
+    "TD Acc.:": "42%",
+    "TD Def.:": "65%",
+    "Sub. Avg.:": "0.2",
+    "Age:": 36
+  },
+  "img": "https://images.tapology.com/letterbox_images/81799/default/IMG_20210503_211714.jpg?1620073094"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de995922e"
+    "$oid": "661dcdf3c24640e0d79e6889"
   },
   "name": "Bobby Green",
   "fighter_roi": {
-    "fav_roi": "28.86%",
+    "fav_roi": "32.25%",
     "dog_roi": "15.71%"
-  }
+  },
+  "stats": {
+    "Height:": "5' 10\"",
+    "Weight:": "155 lbs.",
+    "Reach:": "71\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Sep 09, 1986",
+    "SLpM:": "6.45",
+    "Str. Acc.:": "52%",
+    "SApM:": "3.75",
+    "Str. Def:": "62%",
+    "TD Avg.:": "1.19",
+    "TD Acc.:": "38%",
+    "TD Def.:": "74%",
+    "Sub. Avg.:": "0.3",
+    "Age:": 37
+  },
+  "img": "https://images.tapology.com/letterbox_images/620/default/Bobby-Green.jpg?1386105066"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de995922f"
+    "$oid": "661dcdf3c24640e0d79e688a"
   },
   "name": "Jim Miller",
   "fighter_roi": {
     "fav_roi": "31.83%",
-    "dog_roi": "-24.12%"
-  }
+    "dog_roi": "-28.33%"
+  },
+  "stats": {
+    "Height:": "5' 8\"",
+    "Weight:": "155 lbs.",
+    "Reach:": "71\"",
+    "STANCE:": "Southpaw",
+    "DOB:": "Aug 30, 1983",
+    "SLpM:": "2.99",
+    "Str. Acc.:": "42%",
+    "SApM:": "3.50",
+    "Str. Def:": "56%",
+    "TD Avg.:": "1.53",
+    "TD Acc.:": "44%",
+    "TD Def.:": "47%",
+    "Sub. Avg.:": "1.7",
+    "Age:": 40
+  },
+  "img": "https://images.tapology.com/letterbox_images/32/default/wide.jpg?1275992993"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de9959230"
+    "$oid": "661dcdf3c24640e0d79e688b"
   },
   "name": "Deiveson Figueiredo",
   "fighter_roi": {
-    "fav_roi": "10.57%",
+    "fav_roi": "13.0%",
     "dog_roi": "103.86%"
-  }
+  },
+  "stats": {
+    "Height:": "5' 5\"",
+    "Weight:": "135 lbs.",
+    "Reach:": "68\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Dec 18, 1987",
+    "SLpM:": "3.01",
+    "Str. Acc.:": "55%",
+    "SApM:": "3.38",
+    "Str. Def:": "50%",
+    "TD Avg.:": "1.65",
+    "TD Acc.:": "42%",
+    "TD Def.:": "58%",
+    "Sub. Avg.:": "1.7",
+    "Age:": 36
+  },
+  "img": "https://images.tapology.com/letterbox_images/76553/default/IMG_20220118_101102.jpg?1642500734"
 },
 {
   "_id": {
-    "$oid": "6618b804fc0ddf3de9959231"
+    "$oid": "661dcdf3c24640e0d79e688c"
   },
   "name": "Cody Garbrandt",
   "fighter_roi": {
     "fav_roi": "-5.0%",
-    "dog_roi": "65.0%"
-  }
+    "dog_roi": "37.5%"
+  },
+  "stats": {
+    "Height:": "5' 8\"",
+    "Weight:": "135 lbs.",
+    "Reach:": "65\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Jul 07, 1991",
+    "SLpM:": "2.98",
+    "Str. Acc.:": "40%",
+    "SApM:": "3.76",
+    "Str. Def:": "60%",
+    "TD Avg.:": "1.03",
+    "TD Acc.:": "34%",
+    "TD Def.:": "80%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 32
+  },
+  "img": "https://images.tapology.com/letterbox_images/21780/default/Cody-Garbrandt.jpg?1437931050"
 }]
