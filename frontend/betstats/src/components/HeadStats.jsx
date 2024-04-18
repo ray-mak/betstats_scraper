@@ -3,37 +3,41 @@ import React from "react";
 export default function HeadStats(props) {
     return (
         <div className="h2h-container">
-          <img src={props.fighter1Stats.img} alt="Picture of Alex Perez"/>
+          <div className="img-container">
+            <img src={props.fighter1Stats.img} alt="Picture of Alex Perez"/>
+        </div>
           <table>
             <tbody>
               <tr>
-                <td className="fighter-name">Alex Pereira</td>
+                <td className="fighter-name">{props.fighter1Stats.name}</td>
                 <td>vs</td>
-                <td className="fighter-name">Jamahal Hill</td>
+                <td className="fighter-name">{props.fighter2Stats.name}</td>
               </tr>
               <tr>
-                <td>36</td>
+                <td>{props.fighter1Stats.stats["Age:"]}</td>
                 <td>Age</td>
-                <td>32</td>
+                <td>{props.fighter2Stats.stats["Age:"]}</td>
               </tr>
               <tr>
-                <td>6' 4"</td>
+                <td>{props.fighter1Stats.stats["Height:"]}</td>
                 <td>Height</td>
-                <td>6' 4"</td>
+                <td>{props.fighter2Stats.stats["Height:"]}</td>
               </tr>
               <tr>
-                <td>205 lbs.</td>
+                <td>{props.fighter1Stats.stats["Weight:"]}</td>
                 <td>Weight</td>
-                <td>205 lbs.</td>
+                <td>{props.fighter2Stats.stats["Weight:"]}</td>
               </tr>
               <tr>
-                <td>79"</td>
+                <td>{props.fighter1Stats.stats["Reach:"]}</td>
                 <td>Reach</td>
-                <td>79"</td>
+                <td>{props.fighter2Stats.stats["Reach:"]}</td>
               </tr>
             </tbody>
           </table>
-          <img src="https://images.tapology.com/headshot_images/13299/large/alex-perez.jpg?1601654127" alt="Picture of Alex Perez"/>
+          <div className="img-container">
+            <img src={props.fighter2Stats.img} alt="Picture of Alex Perez"/>
+          </div>    
         </div>
     )
 }

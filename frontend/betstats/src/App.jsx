@@ -58,17 +58,23 @@ function App() {
     const fighter1DogROI = fighter1Stats.fighter_roi.dog_roi
     const fighter1FavROI = fighter1Stats.fighter_roi.fav_roi
 
-    const fighter2stats = fighterStats.find(fighter => fighter.name === matchup.fighter2.name)
-    const fighter2DogROI = fighter2stats.fighter_roi.dog_roi
-    const fighter2FavROI = fighter2stats. fighter_roi.fav_roi
+    const fighter2Stats = fighterStats.find(fighter => fighter.name === matchup.fighter2.name)
+    const fighter2DogROI = fighter2Stats.fighter_roi.dog_roi
+    const fighter2FavROI = fighter2Stats. fighter_roi.fav_roi
 
     const {sharpCount: sharpCount1, squareCount: squareCount1} = calculateBetStats(matchup.fighter1.tips)
     const {sharpCount: sharpCount2, squareCount: squareCount2} = calculateBetStats(matchup.fighter2.tips)
 
     return (
       <div className="matchup-container" key={index}>
-        <HeadStats fighter1Stats={fighter1Stats}/>
-        <AdvStats />
+        <HeadStats 
+          fighter1Stats={fighter1Stats}
+          fighter2Stats={fighter2Stats}
+        />
+        <AdvStats 
+          fighter1Stats={fighter1Stats}
+          fighter2Stats={fighter2Stats}
+        />
         <BetStats />
         {/* <div className="fighter1">
           <h2>{matchup.fighter1.name}</h2>
