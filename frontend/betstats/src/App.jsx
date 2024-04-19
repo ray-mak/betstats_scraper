@@ -75,25 +75,16 @@ function App() {
           fighter1Stats={fighter1Stats}
           fighter2Stats={fighter2Stats}
         />
-        <BetStats />
-        {/* <div className="fighter1">
-          <h2>{matchup.fighter1.name}</h2>
-          <h3>Fighter ROI</h3>
-          <p>ROI as Favorite: <span>{fighter1FavROI}</span></p>
-          <p>ROI as Underdog: <span>{fighter1DogROI}</span></p>
-          <h3>Betting Stats</h3>
-          <p>Sharp Bets: <span>{sharpCount1}</span></p>
-          <p>Square Bets: <span>{squareCount1}</span></p>
-        </div>
-        <div className="fighter2">
-          <h2>{matchup.fighter2.name}</h2>
-          <h3>Fighter ROI</h3>
-          <p>ROI as Favorite: <span>{fighter2FavROI}</span></p>
-          <p>ROI as Underdog: <span>{fighter2DogROI}</span></p>
-          <h3>Betting Stats</h3>
-          <p>Sharp Bets: <span>{sharpCount2}</span></p>
-          <p>Square Bets: <span>{squareCount2}</span></p>
-        </div> */}
+        <BetStats 
+          fighter1DogROI = {fighter1DogROI}
+          fighter1FavROI = {fighter1FavROI}
+          fighter2DogROI = {fighter2DogROI}
+          fighter2FavROI = {fighter2FavROI}
+          sharpCount1 = {sharpCount1}
+          squareCount1 = {squareCount1}
+          sharpCount2 = {sharpCount2}
+          squareCount2 = {squareCount2}
+        />
       </div>
     )
   })

@@ -5,8 +5,8 @@ export default function HeadStats(props) {
         <div className="h2h-container">
           <div className="img-container">
             <img src={props.fighter1Stats.img} alt="Picture of Alex Perez"/>
-        </div>
-          <table>
+          </div>
+          <table className="span-2">
             <tbody>
               <tr>
                 <td className="fighter-name">{props.fighter1Stats.name}</td>
