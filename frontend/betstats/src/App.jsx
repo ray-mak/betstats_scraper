@@ -3,12 +3,13 @@ import { useState, useEffect } from "react"
 import AdvStats from "./components/AdvStats"
 import BetStats from "./components/BetStats"
 import HeadStats from "./components/HeadStats"
+import FilterBar from "./components/FilterBar"
 
 function App() {
   const [matchups, setMatchups] = useState([])
   const [fighterStats, setFighterStats] = useState([])
   const [userStats, setUserStats] = useState([])
-  const [pickFilters, setPickFilters] = useState({"smDogPick": 0, "smFavPick": 0, "bigFavPick": 400, "bigDogPick": 0})
+  const [pickFilters, setPickFilters] = useState({"smDogPick": "", "smFavPick": "", "bigFavPick": "", "bigDogPick": "", "smDogRoi": "", "bigDogRoi": "", "smFavRoi": "", "bigFavRoi": ""})
  
 
   useEffect(() => {
@@ -40,13 +41,29 @@ function App() {
       const userOdds = tip.odds
       if (userBetStats && userBetStats.user_stats) {
         if (userOdds < 1.54 && userBetStats.user_stats.big_fav.total_picks >= pickFilters.bigFavPick) {
-          userBetStats.user_stats.big_fav.roi <= 0 ? squareCount++ : sharpCount++
+            if (userBetStats.user_stats.big_fav.roi <= 0) {
+              squareCount++
+            } else if (userBetStats.user_stats.big_fav.roi >= pickFilters.bigFavRoi) {
+              sharpCount++
+            }
         } else if (userOdds >= 1.54 && userOdds < 2 && userBetStats.user_stats.sm_fav.total_picks >= pickFilters.smFavPick) {
-          userBetStats.user_stats.sm_fav.roi <= 0 ? squareCount++ : sharpCount++
+            if (userBetStats.user_stats.sm_fav.roi <= 0) {
+              squareCount++
+            } else if (userBetStats.user_stats.sm_fav.roi >= pickFilters.smFavRoi) {
+              sharpCount++
+            }
         } else if (userOdds >= 2 && userOdds <= 2.86 && userBetStats.user_stats.sm_dog.total_picks >= pickFilters.smDogPick) {
-          userBetStats.user_stats.sm_dog.roi <= 0 ? squareCount++ : sharpCount++
+            if (userBetStats.user_stats.sm_dog.roi <= 0) {
+              squareCount++
+            } else if (userBetStats.user_stats.sm_dog.roi >= pickFilters.smDogRoi) {
+              sharpCount++
+            }
         } else if (userOdds > 2.86 && userBetStats.user_stats.big_dog.total_picks >= pickFilters.bigDogPick) {
-          userBetStats.user_stats.big_dog.roi <= 0 ? squareCount++ : sharpCount++
+            if (userBetStats.user_stats.big_dog.roi <= 0) {
+              squareCount++ 
+            } else if (userBetStats.user_stats.sm_dog.roi >= pickFilters.bigDogRoi) {
+              sharpCount++
+            }
         }
       }
     })
@@ -88,11 +105,24 @@ function App() {
       </div>
     )
   })
-  
 
- 
+  function handleChange(e) {
+    const {name, value} = e.target
+    setPickFilters(prevFilters => {
+      return {
+        ...prevFilters,
+        [name]: parseFloat(value) || ""
+      }
+    })
+  }
+  console.log(pickFilters)
+  
   return (
     <div className="main-container">
+      <FilterBar 
+        pickFilters={pickFilters}
+        handleChange={handleChange}
+      />
       {matchupCards}
       {/* <div className="matchup-container">
         <HeadStats />
