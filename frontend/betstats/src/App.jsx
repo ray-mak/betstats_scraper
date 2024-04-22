@@ -10,7 +10,7 @@ function App() {
   const [fighterStats, setFighterStats] = useState([])
   const [userStats, setUserStats] = useState([])
   const [pickFilters, setPickFilters] = useState({"smDogPick": "", "smFavPick": "", "bigFavPick": "", "bigDogPick": "", "smDogRoi": "", "bigDogRoi": "", "smFavRoi": "", "bigFavRoi": ""})
- 
+  const [filterOpen, setFilterOpen] = useState(false)
 
   useEffect(() => {
     async function getMatchups() {  
@@ -115,21 +115,29 @@ function App() {
       }
     })
   }
-  console.log(pickFilters)
+  
+  function resetFilter() {
+    setPickFilters({"smDogPick": "", "smFavPick": "", "bigFavPick": "", "bigDogPick": "", "smDogRoi": "", "bigDogRoi": "", "smFavRoi": "", "bigFavRoi": ""})
+  }
+
+  function toggleFilter() {
+    setFilterOpen(prevState => !prevState);
+    document.body.style.overflow = filterOpen ? "auto" : "hidden"
+  }
   
   return (
-    <div className="main-container">
-      <FilterBar 
+    <>
+    <FilterBar 
         pickFilters={pickFilters}
         handleChange={handleChange}
+        resetFilter={resetFilter}
+        toggleFilter={toggleFilter}
+        filterOpen={filterOpen}
       />
+    <div className={`main-container ${filterOpen ? "opened" : ""}`}>
       {matchupCards}
-      {/* <div className="matchup-container">
-        <HeadStats />
-        <AdvStats />
-        <BetStats />
-      </div>    */}
     </div>
+    </>
   )
 }
 
