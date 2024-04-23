@@ -241,12 +241,12 @@ input::-webkit-outer-spin-button {
 }
 
 input {
-  width: 48px;
+  width: 60px;
   height: 32px;
   margin: 0 8px;
   text-align: center;
   padding: 0 8px;
-  font-size: 1.125rem;
+  font-size: 1rem;
   border: 1px solid var(--light-gray);
   border-radius: 8px;
 }
@@ -267,6 +267,10 @@ input {
   cursor: pointer;
   color: var(--white);
   padding-bottom: 2px;
+}
+
+.btn-container button:active {
+  transform: scale(.95);
 }
 
 .reset-btn {
