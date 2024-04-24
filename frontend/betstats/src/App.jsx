@@ -83,7 +83,8 @@ function App() {
     const {sharpCount: sharpCount2, squareCount: squareCount2} = calculateBetStats(matchup.fighter2.tips)
 
     return (
-      <div className="matchup-container" key={index}>
+    // matchup container
+      <div className="w-5/6 flex flex-col items-center mt-6 bg-almostWhite p-4 rounded-lg xl:w-3/5 xxl:w-1/2" key={index}>
         <HeadStats 
           fighter1Stats={fighter1Stats}
           fighter2Stats={fighter2Stats}
@@ -134,7 +135,8 @@ function App() {
         toggleFilter={toggleFilter}
         filterOpen={filterOpen}
       />
-    <div className={`main-container ${filterOpen ? "opened" : ""}`}>
+      {/* main-container */}
+    <div className={`flex flex-col justify-center items-center ${filterOpen ? "opened" : ""}`}>
       {matchupCards}
     </div>
     </>

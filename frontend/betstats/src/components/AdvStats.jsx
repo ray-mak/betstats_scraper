@@ -9,13 +9,13 @@ export default function AdvStats(props) {
     }
 
     return (
-        <div className="adv-stats-container">
-          <button className="adv-stats-btn" onClick={toggleStats}>
+        <div className="adv-stats-container w-full mt-2 rounded-lg bg-darkGray">
+          <button className="adv-stats-btn flex items-center w-full h-12 bg-transparent px-4 text-almostWhite" onClick={toggleStats}>
             ADVANCED STATS
-            <img className={`arrow ${statsToggled ? "toggled" : ""}`} src="https://github.com/ray-mak/betstats_scraper/assets/154634286/cfefafe9-844c-4407-95c9-5772db995f21" alt="down arrow icon"/> 
+            <img className={`arrow w-4 ml-auto object-contain duration-200 ${statsToggled ? "toggled" : ""}`} src="https://github.com/ray-mak/betstats_scraper/assets/154634286/cfefafe9-844c-4407-95c9-5772db995f21" alt="down arrow icon"/> 
           </button>
-          <div className={`adv-stats ${statsToggled ? "toggled" : ""}`}>
-            <table>
+          <div className={`adv-stats flex justify-center max-h-0 overflow-hidden duration-200 ease-in ${statsToggled ? "toggled" : ""}`}>
+            <table className="w-1/2">
               <tbody>
                 <tr>
                   <td>{props.fighter1Stats.stats["SLpM:"]}</td>

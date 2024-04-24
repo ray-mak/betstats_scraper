@@ -2,16 +2,16 @@ import React from "react";
 
 export default function HeadStats(props) {
     return (
-        <div className="h2h-container">
-          <div className="img-container">
-            <img src={props.fighter1Stats.img} alt="Picture of Alex Perez"/>
+        <div className="w-full flex justify-between items-center">
+          <div className="w-60 h-60">
+            <img className="w-full h-full object-cover rounded-lg" src={props.fighter1Stats.img} alt={`Picture of ${props.fighter1Stats.name}`}/>
           </div>
-          <table className="span-2">
+          <table className="w-1/2 border-collapse mx-2 my-1 span-2">
             <tbody>
               <tr>
-                <td className="fighter-name">{props.fighter1Stats.name}</td>
+                <td className="text-2xl text-red">{props.fighter1Stats.name}</td>
                 <td>vs</td>
-                <td className="fighter-name">{props.fighter2Stats.name}</td>
+                <td className="text-2xl text-red">{props.fighter2Stats.name}</td>
               </tr>
               <tr>
                 <td>{props.fighter1Stats.stats["Age:"]}</td>
@@ -35,8 +35,8 @@ export default function HeadStats(props) {
               </tr>
             </tbody>
           </table>
-          <div className="img-container">
-            <img src={props.fighter2Stats.img} alt="Picture of Alex Perez"/>
+          <div className="w-60 h-60">
+            <img className="w-full h-full object-cover rounded-lg" src={props.fighter2Stats.img} alt={`Picture of ${props.fighter2Stats.name}`}/>
           </div>    
         </div>
     )

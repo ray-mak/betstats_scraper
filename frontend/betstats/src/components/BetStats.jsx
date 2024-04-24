@@ -9,13 +9,13 @@ export default function BetStats(props) {
     }
 
     return (
-        <div className="bet-stats-container">
-          <button className="adv-stats-btn" onClick={toggleStats}>
+        <div className="bet-stats-container w-full mt-2 rounded-lg bg-lightGray">
+          <button className="adv-stats-btn flex items-center w-full h-12 bg-transparent px-4" onClick={toggleStats}>
             BETTING STATS
-            <img className={`arrow ${statsToggled ? "toggled" : ""}`} src="https://github.com/ray-mak/betstats_scraper/assets/154634286/f74fa00d-47db-47b6-9fcb-0428e89c1bcc" alt="down arrow icon"/>
+            <img className={`arrow w-4 ml-auto object-contain duration-200 ${statsToggled ? "toggled" : ""}`} src="https://github.com/ray-mak/betstats_scraper/assets/154634286/f74fa00d-47db-47b6-9fcb-0428e89c1bcc" alt="down arrow icon"/>
           </button>
-          <div className={`bet-stats ${statsToggled ? "toggled" : ""}`}>
-            <table>
+          <div className={`bet-stats flex justify-center max-h-0 overflow-hidden duration-200 ${statsToggled ? "toggled" : ""}`}>
+            <table className="w-1/2">
               <tbody>
                 <tr>
                   <td>{props.fighter1FavROI}</td>
