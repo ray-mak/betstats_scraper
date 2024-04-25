@@ -6,7 +6,7 @@ export default function HeadStats(props) {
           <div className="w-24 h-24 justify-self-center sm:w-36 sm:h-36 md:w-60 md:h-60">
             <img className="w-full h-full object-cover rounded-lg" src={props.fighter1Stats.img} alt={`Picture of ${props.fighter1Stats.name}`}/>
           </div>
-          <table className="w-full col-span-2 order-3 md:order-none border-collapse mx-2 my-1 span-2 md:w-1/2">
+          <table className="w-full col-span-2 order-3 md:order-none span-2 md:w-1/2 md:mx-4">
             <tbody>
               <tr>
                 <td className="text-2xl text-red">{props.fighter1Stats.name}</td>

@@ -136,7 +136,7 @@ function App() {
         filterOpen={filterOpen}
       />
       {/* main-container */}
-    <div className={`flex flex-col justify-center items-center ${filterOpen ? "opened" : ""}`}>
+    <div className={`flex flex-col justify-center items-center mt-20 md:mt-0 ${filterOpen ? "opened" : ""}`}>
       {matchupCards}
     </div>
     </>
