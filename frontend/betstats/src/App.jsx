@@ -84,7 +84,7 @@ function App() {
 
     return (
     // matchup container
-      <div className="w-5/6 flex flex-col items-center mt-6 bg-almostWhite p-4 rounded-lg xl:w-3/5 xxl:w-1/2" key={index}>
+      <div className="w-full flex flex-col items-center mt-6 bg-almostWhite p-4 lg:rounded-lg lg:w-4/5 xl:w-3/5 xxl:w-1/2" key={index}>
         <HeadStats 
           fighter1Stats={fighter1Stats}
           fighter2Stats={fighter2Stats}

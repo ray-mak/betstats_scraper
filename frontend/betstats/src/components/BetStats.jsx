@@ -15,7 +15,7 @@ export default function BetStats(props) {
             <img className={`arrow w-4 ml-auto object-contain duration-200 ${statsToggled ? "toggled" : ""}`} src="https://github.com/ray-mak/betstats_scraper/assets/154634286/f74fa00d-47db-47b6-9fcb-0428e89c1bcc" alt="down arrow icon"/>
           </button>
           <div className={`bet-stats flex justify-center max-h-0 overflow-hidden duration-200 ${statsToggled ? "toggled" : ""}`}>
-            <table className="w-1/2">
+            <table className="w-full md:w-3/5">
               <tbody>
                 <tr>
                   <td>{props.fighter1FavROI}</td>
