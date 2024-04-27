@@ -6,7 +6,7 @@ import time
 import random
 import pymongo
 
-url = "https://www.betmma.tips/free_ufc_betting_tips.php?Event=1444"
+url = "https://www.betmma.tips/free_ufc_betting_tips.php?Event=1509"
 response = requests.get(url)
 soup = BeautifulSoup(response.text, "html.parser")
 
@@ -121,5 +121,5 @@ with open("matchups_4_11_updated", "w") as json_file:
 
 client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = client["event_stats"]
-collection = db["ufc_300"]
+collection = db["ufc_fn_nicolau_perez"]
 collection.insert_many(fighter_pairs)

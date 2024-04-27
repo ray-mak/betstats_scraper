@@ -8,7 +8,7 @@ import urllib.request as urllib3
 from googlesearch import search
 from datetime import datetime
 
-with open("../matchups_4_11_updated.json") as f:
+with open("./ufc_fn_nicolau_perez.json") as f:
     data = json.load(f)
 
 fighters_stats = []
@@ -122,6 +122,6 @@ for matchup in data:
 
 client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = client["fighter_stats"]
-collection = db["fighter_stats_4_15"]
+collection = db["fighter_stats_nicolau_perez"]
 collection.insert_many(fighters_stats)
 

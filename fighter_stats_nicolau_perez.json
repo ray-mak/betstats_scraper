@@ -1,0 +1,676 @@
+[{
+  "_id": {
+    "$oid": "662d44b6e173402359009426"
+  },
+  "name": "Matheus Nicolau",
+  "fighter_roi": {
+    "fav_roi": "-3.17%",
+    "dog_roi": "128.33%"
+  },
+  "stats": {
+    "Height:": "5' 6\"",
+    "Weight:": "125 lbs.",
+    "Reach:": "66\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Jan 06, 1993",
+    "SLpM:": "3.66",
+    "Str. Acc.:": "53%",
+    "SApM:": "3.14",
+    "Str. Def:": "66%",
+    "TD Avg.:": "1.48",
+    "TD Acc.:": "45%",
+    "TD Def.:": "93%",
+    "Sub. Avg.:": "0.9",
+    "Age:": 31
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e173402359009427"
+  },
+  "name": "Alex Perez",
+  "fighter_roi": {
+    "fav_roi": "32.86%",
+    "dog_roi": "-43.75%"
+  },
+  "stats": {
+    "Height:": "5' 6\"",
+    "Weight:": "125 lbs.",
+    "Reach:": "65\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Mar 21, 1992",
+    "SLpM:": "4.12",
+    "Str. Acc.:": "46%",
+    "SApM:": "3.14",
+    "Str. Def:": "59%",
+    "TD Avg.:": "2.26",
+    "TD Acc.:": "44%",
+    "TD Def.:": "82%",
+    "Sub. Avg.:": "1.0",
+    "Age:": 32
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e173402359009428"
+  },
+  "name": "Ryan Spann",
+  "fighter_roi": {
+    "fav_roi": "10.29%",
+    "dog_roi": "38.0%"
+  },
+  "stats": {
+    "Height:": "6' 5\"",
+    "Weight:": "205 lbs.",
+    "Reach:": "79\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Aug 24, 1991",
+    "SLpM:": "3.42",
+    "Str. Acc.:": "40%",
+    "SApM:": "3.91",
+    "Str. Def:": "45%",
+    "TD Avg.:": "1.29",
+    "TD Acc.:": "35%",
+    "TD Def.:": "47%",
+    "Sub. Avg.:": "1.5",
+    "Age:": 32
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e173402359009429"
+  },
+  "name": "Bogdan Guskov",
+  "fighter_roi": {
+    "fav_roi": "No matchups where fighter is favorite",
+    "dog_roi": "4.0%"
+  },
+  "stats": {
+    "Height:": "6' 3\"",
+    "Weight:": "205 lbs.",
+    "Reach:": "76\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Sep 12, 1992",
+    "SLpM:": "2.43",
+    "Str. Acc.:": "33%",
+    "SApM:": "5.81",
+    "Str. Def:": "40%",
+    "TD Avg.:": "0.00",
+    "TD Acc.:": "0%",
+    "TD Def.:": "66%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 31
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e17340235900942a"
+  },
+  "name": "Karine Silva",
+  "fighter_roi": {
+    "fav_roi": "66.33%",
+    "dog_roi": "No matchups where fighter is underdog"
+  },
+  "stats": {
+    "Height:": "5' 5\"",
+    "Weight:": "125 lbs.",
+    "Reach:": "67\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Dec 02, 1993",
+    "SLpM:": "3.37",
+    "Str. Acc.:": "35%",
+    "SApM:": "3.37",
+    "Str. Def:": "50%",
+    "TD Avg.:": "2.45",
+    "TD Acc.:": "60%",
+    "TD Def.:": "0%",
+    "Sub. Avg.:": "4.1",
+    "Age:": 30
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e17340235900942b"
+  },
+  "name": "Ariane Lipski",
+  "fighter_roi": {
+    "fav_roi": "-23.4%",
+    "dog_roi": "152.0%"
+  },
+  "stats": {
+    "Height:": "5' 6\"",
+    "Weight:": "125 lbs.",
+    "Reach:": "67\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Jan 26, 1994",
+    "SLpM:": "4.27",
+    "Str. Acc.:": "40%",
+    "SApM:": "4.23",
+    "Str. Def:": "52%",
+    "TD Avg.:": "0.64",
+    "TD Acc.:": "55%",
+    "TD Def.:": "79%",
+    "Sub. Avg.:": "0.4",
+    "Age:": 30
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e17340235900942c"
+  },
+  "name": "Austen Lane",
+  "fighter_roi": {
+    "fav_roi": "74.0%",
+    "dog_roi": "-100.0%"
+  },
+  "stats": {
+    "Height:": "6' 6\"",
+    "Weight:": "245 lbs.",
+    "Reach:": "80\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Nov 09, 1987",
+    "SLpM:": "4.48",
+    "Str. Acc.:": "47%",
+    "SApM:": "2.85",
+    "Str. Def:": "48%",
+    "TD Avg.:": "0.00",
+    "TD Acc.:": "0%",
+    "TD Def.:": "0%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 36
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e17340235900942d"
+  },
+  "name": "Jhonata Diniz",
+  "fighter_roi": {
+    "fav_roi": "No matchups where fighter is favorite",
+    "dog_roi": "No matchups where fighter is underdog"
+  },
+  "stats": {
+    "Height:": "6' 4\"",
+    "Weight:": "254 lbs.",
+    "Reach:": "79\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Jun 23, 1991",
+    "SLpM:": "7.69",
+    "Str. Acc.:": "42%",
+    "SApM:": "7.38",
+    "Str. Def:": "36%",
+    "TD Avg.:": "0.00",
+    "TD Acc.:": "0%",
+    "TD Def.:": "100%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 32
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e17340235900942e"
+  },
+  "name": "Jonathan Pearce",
+  "fighter_roi": {
+    "fav_roi": "-16.2%",
+    "dog_roi": "183.0%"
+  },
+  "stats": {
+    "Height:": "6' 0\"",
+    "Weight:": "145 lbs.",
+    "Reach:": "71\"",
+    "STANCE:": "Switch",
+    "DOB:": "May 01, 1992",
+    "SLpM:": "5.60",
+    "Str. Acc.:": "56%",
+    "SApM:": "3.35",
+    "Str. Def:": "55%",
+    "TD Avg.:": "5.29",
+    "TD Acc.:": "53%",
+    "TD Def.:": "56%",
+    "Sub. Avg.:": "0.8",
+    "Age:": 31
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e17340235900942f"
+  },
+  "name": "David Onama",
+  "fighter_roi": {
+    "fav_roi": "-9.0%",
+    "dog_roi": "44.0%"
+  },
+  "stats": {
+    "Height:": "5' 11\"",
+    "Weight:": "145 lbs.",
+    "Reach:": "74\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Jun 07, 1994",
+    "SLpM:": "5.38",
+    "Str. Acc.:": "46%",
+    "SApM:": "5.48",
+    "Str. Def:": "51%",
+    "TD Avg.:": "0.87",
+    "TD Acc.:": "18%",
+    "TD Def.:": "45%",
+    "Sub. Avg.:": "0.3",
+    "Age:": 29
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e173402359009430"
+  },
+  "name": "Tim Means",
+  "fighter_roi": {
+    "fav_roi": "-1.33%",
+    "dog_roi": "-19.67%"
+  },
+  "stats": {
+    "Height:": "6' 2\"",
+    "Weight:": "170 lbs.",
+    "Reach:": "75\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Feb 20, 1984",
+    "SLpM:": "5.10",
+    "Str. Acc.:": "49%",
+    "SApM:": "3.65",
+    "Str. Def:": "60%",
+    "TD Avg.:": "1.16",
+    "TD Acc.:": "42%",
+    "TD Def.:": "65%",
+    "Sub. Avg.:": "0.2",
+    "Age:": 40
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e173402359009431"
+  },
+  "name": "Uros Medic",
+  "fighter_roi": {
+    "fav_roi": "-14.5%",
+    "dog_roi": "155.0%"
+  },
+  "stats": {
+    "Height:": "6' 1\"",
+    "Weight:": "170 lbs.",
+    "Reach:": "71\"",
+    "STANCE:": "Southpaw",
+    "DOB:": "Apr 25, 1993",
+    "SLpM:": "5.64",
+    "Str. Acc.:": "60%",
+    "SApM:": "3.18",
+    "Str. Def:": "58%",
+    "TD Avg.:": "0.40",
+    "TD Acc.:": "100%",
+    "TD Def.:": "46%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 31
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e173402359009432"
+  },
+  "name": "Rani Yahya",
+  "fighter_roi": {
+    "fav_roi": "-15.43%",
+    "dog_roi": "80.33%"
+  },
+  "stats": {
+    "Height:": "5' 6\"",
+    "Weight:": "135 lbs.",
+    "Reach:": "67\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Sep 12, 1984",
+    "SLpM:": "1.59",
+    "Str. Acc.:": "37%",
+    "SApM:": "1.77",
+    "Str. Def:": "50%",
+    "TD Avg.:": "2.86",
+    "TD Acc.:": "32%",
+    "TD Def.:": "24%",
+    "Sub. Avg.:": "1.9",
+    "Age:": 39
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e173402359009433"
+  },
+  "name": "Victor Henry",
+  "fighter_roi": {
+    "fav_roi": "-15.0%",
+    "dog_roi": "425.0%"
+  },
+  "stats": {
+    "Height:": "5' 7\"",
+    "Weight:": "135 lbs.",
+    "Reach:": "68\"",
+    "STANCE:": "Switch",
+    "DOB:": "May 04, 1987",
+    "SLpM:": "8.26",
+    "Str. Acc.:": "54%",
+    "SApM:": "5.95",
+    "Str. Def:": "47%",
+    "TD Avg.:": "0.00",
+    "TD Acc.:": "0%",
+    "TD Def.:": "78%",
+    "Sub. Avg.:": "0.6",
+    "Age:": 36
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e173402359009434"
+  },
+  "name": "Austin Hubbard",
+  "fighter_roi": {
+    "fav_roi": "-16.25%",
+    "dog_roi": "62.2%"
+  },
+  "stats": {
+    "Height:": "5' 10\"",
+    "Weight:": "155 lbs.",
+    "Reach:": "71\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Dec 22, 1991",
+    "SLpM:": "3.83",
+    "Str. Acc.:": "46%",
+    "SApM:": "3.37",
+    "Str. Def:": "56%",
+    "TD Avg.:": "1.55",
+    "TD Acc.:": "52%",
+    "TD Def.:": "63%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 32
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e173402359009435"
+  },
+  "name": "Michal Figlak",
+  "fighter_roi": {
+    "fav_roi": "-100.0%",
+    "dog_roi": "No matchups where fighter is underdog"
+  },
+  "stats": {
+    "Height:": "5' 10\"",
+    "Weight:": "155 lbs.",
+    "Reach:": "70\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Aug 15, 1996",
+    "SLpM:": "1.87",
+    "Str. Acc.:": "29%",
+    "SApM:": "4.00",
+    "Str. Def:": "44%",
+    "TD Avg.:": "1.00",
+    "TD Acc.:": "20%",
+    "TD Def.:": "57%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 27
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e173402359009436"
+  },
+  "name": "Don'tale Mayes",
+  "fighter_roi": {
+    "fav_roi": "30.6%",
+    "dog_roi": "-23.0%"
+  },
+  "stats": {
+    "Height:": "6' 6\"",
+    "Weight:": "260 lbs.",
+    "Reach:": "81\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Jan 16, 1992",
+    "SLpM:": "3.60",
+    "Str. Acc.:": "44%",
+    "SApM:": "3.84",
+    "Str. Def:": "46%",
+    "TD Avg.:": "0.79",
+    "TD Acc.:": "43%",
+    "TD Def.:": "60%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 32
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e173402359009437"
+  },
+  "name": "Caio Machado",
+  "fighter_roi": {
+    "fav_roi": "No matchups where fighter is favorite",
+    "dog_roi": "5.0%"
+  },
+  "stats": {
+    "Height:": "6' 4\"",
+    "Weight:": "250 lbs.",
+    "Reach:": "78\"",
+    "STANCE:": "Southpaw",
+    "DOB:": "Jul 20, 1994",
+    "SLpM:": "6.57",
+    "Str. Acc.:": "64%",
+    "SApM:": "1.87",
+    "Str. Def:": "64%",
+    "TD Avg.:": "0.00",
+    "TD Acc.:": "0%",
+    "TD Def.:": "82%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 29
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e173402359009438"
+  },
+  "name": "Marnic Mann",
+  "fighter_roi": {
+    "fav_roi": "31.5%",
+    "dog_roi": "-100.0%"
+  },
+  "stats": {
+    "Height:": "5' 0\"",
+    "Weight:": "115 lbs.",
+    "Reach:": "64\"",
+    "STANCE:": "Southpaw",
+    "DOB:": "Mar 05, 1993",
+    "SLpM:": "1.10",
+    "Str. Acc.:": "42%",
+    "SApM:": "4.93",
+    "Str. Def:": "31%",
+    "TD Avg.:": "1.83",
+    "TD Acc.:": "30%",
+    "TD Def.:": "16%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 31
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e173402359009439"
+  },
+  "name": "Ketlen Souza",
+  "fighter_roi": {
+    "fav_roi": "58.5%",
+    "dog_roi": "-100.0%"
+  },
+  "stats": {
+    "Height:": "5' 3\"",
+    "Weight:": "115 lbs.",
+    "Reach:": "63\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Aug 18, 1994",
+    "SLpM:": "0.00",
+    "Str. Acc.:": "0%",
+    "SApM:": "1.71",
+    "Str. Def:": "70%",
+    "TD Avg.:": "0.00",
+    "TD Acc.:": "0%",
+    "TD Def.:": "0%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 29
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e17340235900943a"
+  },
+  "name": "James Llontop",
+  "fighter_roi": {
+    "fav_roi": "No matchups where fighter is favorite",
+    "dog_roi": "No matchups where fighter is underdog"
+  },
+  "stats": {
+    "Height:": "6' 0\"",
+    "Weight:": "155 lbs.",
+    "Reach:": "73\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Aug 02, 1999",
+    "SLpM:": "4.93",
+    "Str. Acc.:": "54%",
+    "SApM:": "1.93",
+    "Str. Def:": "74%",
+    "TD Avg.:": "0.00",
+    "TD Acc.:": "0%",
+    "TD Def.:": "71%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 24
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e17340235900943b"
+  },
+  "name": "Chris Padilla",
+  "fighter_roi": {
+    "fav_roi": "No matchups where fighter is favorite",
+    "dog_roi": "No matchups where fighter is underdog"
+  },
+  "stats": {
+    "Height:": "5' 9\"",
+    "Weight:": "155 lbs.",
+    "Reach:": "74\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Sep 14, 1995",
+    "SLpM:": "0.00",
+    "Str. Acc.:": "0%",
+    "SApM:": "0.00",
+    "Str. Def:": "0%",
+    "TD Avg.:": "0.00",
+    "TD Acc.:": "0%",
+    "TD Def.:": "0%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 28
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e17340235900943c"
+  },
+  "name": "Ivana Petrovic",
+  "fighter_roi": {
+    "fav_roi": "18.67%",
+    "dog_roi": "No matchups where fighter is underdog"
+  },
+  "stats": {
+    "Height:": "5' 8\"",
+    "Weight:": "125 lbs.",
+    "Reach:": "70\"",
+    "STANCE:": "Southpaw",
+    "DOB:": "Jun 11, 1994",
+    "SLpM:": "1.47",
+    "Str. Acc.:": "35%",
+    "SApM:": "2.73",
+    "Str. Def:": "52%",
+    "TD Avg.:": "2.00",
+    "TD Acc.:": "33%",
+    "TD Def.:": "66%",
+    "Sub. Avg.:": "2.0",
+    "Age:": 29
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e17340235900943d"
+  },
+  "name": "Na Liang",
+  "fighter_roi": {
+    "fav_roi": "-100.0%",
+    "dog_roi": "-100.0%"
+  },
+  "stats": {
+    "Height:": "5' 5\"",
+    "Weight:": "125 lbs.",
+    "Reach:": "67\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Jul 27, 1996",
+    "SLpM:": "1.93",
+    "Str. Acc.:": "40%",
+    "SApM:": "4.48",
+    "Str. Def:": "27%",
+    "TD Avg.:": "5.10",
+    "TD Acc.:": "60%",
+    "TD Def.:": "0%",
+    "Sub. Avg.:": "0.8",
+    "Age:": 27
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e17340235900943e"
+  },
+  "name": "Gabriel Benitez",
+  "fighter_roi": {
+    "fav_roi": "-5.0%",
+    "dog_roi": "16.62%"
+  },
+  "stats": {
+    "Height:": "5' 8\"",
+    "Weight:": "155 lbs.",
+    "Reach:": "71\"",
+    "STANCE:": "Southpaw",
+    "DOB:": "Jun 15, 1988",
+    "SLpM:": "4.92",
+    "Str. Acc.:": "41%",
+    "SApM:": "4.26",
+    "Str. Def:": "62%",
+    "TD Avg.:": "0.24",
+    "TD Acc.:": "50%",
+    "TD Def.:": "55%",
+    "Sub. Avg.:": "1.0",
+    "Age:": 35
+  }
+},
+{
+  "_id": {
+    "$oid": "662d44b6e17340235900943f"
+  },
+  "name": "Hayisaer Maheshate",
+  "fighter_roi": {
+    "fav_roi": "No matchups where fighter is favorite",
+    "dog_roi": "-5.0%"
+  },
+  "stats": {
+    "Height:": "6' 0\"",
+    "Weight:": "155 lbs.",
+    "Reach:": "71\"",
+    "STANCE:": "Orthodox",
+    "DOB:": "Dec 01, 1999",
+    "SLpM:": "2.91",
+    "Str. Acc.:": "26%",
+    "SApM:": "4.86",
+    "Str. Def:": "49%",
+    "TD Avg.:": "0.00",
+    "TD Acc.:": "0%",
+    "TD Def.:": "45%",
+    "Sub. Avg.:": "0.0",
+    "Age:": 24
+  }
+}]

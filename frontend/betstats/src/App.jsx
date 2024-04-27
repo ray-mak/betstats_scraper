@@ -14,17 +14,17 @@ function App() {
 
   useEffect(() => {
     async function getMatchups() {  
-      const res = await fetch("https://ray-mak.github.io/betstats_scraper/matchups_4_11_updated.json")
+      const res = await fetch("https://github.com/ray-mak/betstats_scraper/files/15139496/ufc_fn_nicolau_perez.json")
       const data = await res.json()
       setMatchups(data)
     }
     async function getFighterStats() {
-      const res = await fetch("https://ray-mak.github.io/betstats_scraper/fighter_stats.json")
+      const res = await fetch("https://github.com/ray-mak/betstats_scraper/files/15139497/fighter_stats_nicolau_perez.json")
       const data = await res.json()
       setFighterStats(data)
     }
     async function getUserStats() {
-      const res = await fetch("https://ray-mak.github.io/betstats_scraper/user_stats.json")
+      const res = await fetch("https://github.com/ray-mak/betstats_scraper/files/15139499/ufc_fn_nicolau_perez_users.json")
       const data = await res.json()
       setUserStats(data)
     }

@@ -5,7 +5,7 @@ import time
 import random
 import pymongo
 
-with open("matchups_4_11.json") as f:
+with open("ufc_fn_nicolau_perez.json") as f:
     data = json.load(f)
 
 scraped_users = set()
@@ -150,5 +150,5 @@ for fighter_pair in data:
 
 client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = client["user_betstats"]
-collection = db["4_11_24"]
+collection = db["ufc_fn_nicolau_perez_users"]
 collection.insert_many(user_stats)
