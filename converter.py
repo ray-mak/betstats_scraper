@@ -1,6 +1,6 @@
 import json
 
-with open('user_stats.json', "r") as f:
+with open('ufc_fn_nicolau_perez_users.json', "r") as f:
     data = json.load(f)
 
 filteredData = []
@@ -16,5 +16,5 @@ for item in data:
     if not isNan:
         filteredData.append(item)
 
-with open("user_stats_updated.json", "w") as f:
+with open("ufc_fn_nicolau_perez_users.json", "w") as f:
     json.dump(filteredData, f, indent=2)
